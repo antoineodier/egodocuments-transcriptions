@@ -81,7 +81,7 @@
          <projectDesc><p>Early Modern Beings and Writings digital platform</p></projectDesc>
          <editorialDecl>
             <normalization method="silent"><p>Diplomatic transcription</p></normalization>
-            <punctuation marks="none"><p>Unmodified</p></punctuation>
+            <punctuation marks="all"><p>Original</p></punctuation>
             <correction><p>None</p></correction>
          </editorialDecl>   
       </encodingDesc>
