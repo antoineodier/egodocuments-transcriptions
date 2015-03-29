@@ -88,10 +88,10 @@
       <profileDesc>
          <creation>
             <date>From ca. 1650 onwards</date>
-            <rs type="place" ref="#">Augsburg</rs>
+            <rs type="place" ref="#augsburg">Augsburg</rs>
          </creation>
          <calendarDesc>
-            <calendar><p>Julian(?)</p></calendar>
+            <calendar xml:id="julian"><p>Julian(?)</p></calendar>
          </calendarDesc>
          <langUsage>
             <language ident="ger" usage="90">German</language>
