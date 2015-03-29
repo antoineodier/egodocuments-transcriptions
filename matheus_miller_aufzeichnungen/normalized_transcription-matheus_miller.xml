@@ -11,12 +11,9 @@
                <name>
                   <forename>Matheus</forename>
                   <surname>Miller</surname>
-                  <!--<forename>Jakob</forename>
-                  <placeName>Äthopien</placeName>
-                  <roleName>Kaiser</roleName>
-                  <nameLink>von</nameLink>-->
                </name>
                <add n="life_dates">1625–1685</add>
+               <add n="confession">Lutheran</add>
             </author>
          </titleStmt>
          <editionStmt>
@@ -38,7 +35,7 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <settlement>Augsburg</settlement>
+                  <settlement><rs type="place" ref="#augsburg">Augsburg</rs></settlement>
                   <repository >Stadtarchiv</repository>
                   <idno type="library_classification_mark">EWA 59</idno>
                   <altIdentifier type="library_website_catalogue">
