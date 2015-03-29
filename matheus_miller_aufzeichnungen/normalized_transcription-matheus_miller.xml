@@ -82,11 +82,12 @@
          <editorialDecl>
             <normalization method="silent"><p>Normalized transcription</p></normalization>
             <punctuation marks="none"><p>Modernized</p></punctuation>
+            <correction><p>Orthography</p></correction>
          </editorialDecl>   
       </encodingDesc>
       <profileDesc>
          <creation>
-            <date>from ca. 1650 onwards</date>
+            <date>From ca. 1650 onwards</date>
             <rs type="place" ref="#">Augsburg</rs>
          </creation>
          <calendarDesc>

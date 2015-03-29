@@ -3,96 +3,115 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
+   <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Registre</title>
+            <title>Aufzeichnungen</title>
             <author>
                <name>
-                  <forename>Jean</forename>
-                  <surname>Maillefer</surname>
+                  <forename>Matheus</forename>
+                  <surname>Miller</surname>
+                  <!--<forename>Jakob</forename>
+                  <placeName>Äthopien</placeName>
+                  <roleName>Kaiser</roleName>
+                  <nameLink>von</nameLink>-->
                </name>
+               <add n="life_dates">1625–1685</add>
             </author>
          </titleStmt>
+         <editionStmt>
+            <edition>Digital Edition</edition>
+            <respStmt>
+               <resp>Edited by</resp>
+               <name>
+                  <forename>Antoine</forename>
+                  <surname>Odier</surname>
+               </name>
+            </respStmt>               
+         </editionStmt>
          <publicationStmt>
-            <p>Publication Information</p>
+            <p>
+               <date>2015</date>
+               <idno type="website">address</idno>
+            </p>
          </publicationStmt>
          <sourceDesc>
-            <p>Information about the source</p>
+            <msDesc>
+               <msIdentifier>
+                  <settlement>Augsburg</settlement>
+                  <repository >Stadtarchiv</repository>
+                  <idno type="library_classification_mark">EWA 59</idno>
+                  <altIdentifier type="library_website_catalogue">
+                     <idno>http://www.stadtarchiv.augsburg.de</idno>
+                  </altIdentifier>
+                  <msName>Miller Tagebuch</msName>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <textLang mainLang="ger">German</textLang>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="perg">
+                        <support>
+                           <p>Paper</p>
+                        </support>
+                        <extent>xxx leaves
+                           <dimensions scope="all" type="leaf"
+                              unit="centimeters">
+                              <height></height>
+                              <width></width>
+                              <depth></depth>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <p>Written in one hand</p>
+                  </handDesc>
+                  <decoDesc>
+                     <p>No drawings</p>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>            
          </sourceDesc>
       </fileDesc>
-  </teiHeader>
-  <text>
+      <encodingDesc>
+         <projectDesc><p>Early Modern Beings and Writings digital platform</p></projectDesc>
+         <editorialDecl>
+            <normalization method="silent"><p>Diplomatic transcription</p></normalization>
+            <punctuation marks="none"><p>Unmodified</p></punctuation>
+            <correction><p>None</p></correction>
+         </editorialDecl>   
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date>From ca. 1650 onwards</date>
+            <rs type="place" ref="#">Augsburg</rs>
+         </creation>
+         <calendarDesc>
+            <calendar><p>Julian(?)</p></calendar>
+         </calendarDesc>
+         <langUsage>
+            <language ident="ger" usage="90">German</language>
+            <language ident="lat" usage="10">Latin</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="historical_genre">Aufzeichnungen</term>
+               <term type="modern_genre">Autobiography</term>
+               <term type="document">Egodocument</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
       <body>
          <div type="volume">
-            <pb n="1r"/>
-               <p> 
-                  <add place="margin_left"> 
-                     <lb/>Commencé le
-                     <lb/><date calendar="gregorian" when="1667-06-01">premier Juing
-                     <lb/>1667</date>
-                  </add>
-               </p>
-               <p>
-                  <lb/><title>au publique</title>
-               </p>
-                  <p>
-                     <lb/>Monseigneur 
-                  </p>
-               <p>
-                  <lb/>dans un long ennuye, pour des Raisons qui vous ennuiroient
-                  <lb/>a les entendre et moy daduantage a vous les dire, qui nous sont
-                  <lb/>neantmoing Communes mais une principalle Cest que me
-                  <lb/>voyant Jnutil a cause de mon Jnfirmité de l'ouye de
-                  <lb/>vous faire seruire ou de vous  estre vtil Jay esté beaucoup
-                  <lb/>Consolé que dieu mayt donné huict fils sans Compter
-                  <lb/>les filles lesquels sy Jls mobeissent seront vos seruiteurs
-                  <lb/>et Repareront les pertes que vous Recepues a tous moments
-                  <lb/>de quelqueunes de vos parties Ce quy ne mayant pas <choice><abbr>entierem<c>t</c></abbr><expan>entierement</expan></choice>
-                  <lb/>satisfait Jay esté bien aisé de vous embelire dans vn
-                  <lb/>abandonnement que on peut dire quasy general ou vous
-                  <lb/>est soit par la negligence l'imposibilité ou le trop grand
-                  <lb/>menage de Ceux qui vous Composent et pour Ce Jay fait
-                  <lb/>batir auecq le plus de simetrye et que le lieu ma peue
-                  <lb/>permettre Car on dit et Jl est vraye que les bastiments
-                  <lb/>vous ornent autant et plus que les point peruques brocarts
-                  <lb/>estophes Rayes font plusieurs de vos Jndiuidus
-                  <lb/>Monseigneur donques
-                  <lb/>Je die a vos beaux esprits
-                  <lb/>que je Reueue Ces escrits
-                  <lb/>a ne vous en pas mentir
-                  <lb/>Je Retranché la satir
-                  <lb/>Sy vous me demandes quelle fin encore Je me propose Je vous
-                  <lb/>diray que Ce nest ny la gloire ny linterest la premiere
-                  <lb/>est belle mais pour lacquerir la faut fuire et elle suit
-                  <lb/>laultre est necessaire Ce a esté pour moccuper aux heures
-                  <lb/>que je ne scay que faire ny mesme me diuertir et pour
-                  <lb/>minstruire et pour seruir a mes enfans Cest tout sur
-                  <lb/>la moralle et du Commerce Cest lhonneste et lutil
-                  <lb/>que naye je des puissances proportionnes a mes
-                  <lb/>mouuements et aux desirs de vous tesmoigner que
-                  <lb/>Je vous suis
-               </p>                  
-               <p>
-                  <lb/>
-                  <lb/>
-                  <lb/>Monse<unclear reason="stain">igne</unclear>ur &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Vostre
-               </p>
-            <pb n="1v"/>
-            <pb n="2r"/>
-            <p>
-               <lb/><title>au lecteur</title>   
-            </p>
-            <p>
-               <lb/>Mon cher lecteur
-               <lb/>Cela sentend sy vous lizés Ie ne vous demande 
-               <lb/>vostre approbation ny Je ne me soucye de vostre
-               <lb/>Censure on scait asses que Il ny a personne Dont
-               <lb/>les escrits ou les art
-            </p>
-            <pb n="2v"/>
-            <pb n="3r"/>
+            <pb n="unpaginated"/>
+            <p>[To be transcribed]</p> 
          </div>
       </body>
-  </text>
+   </text>
 </TEI>
