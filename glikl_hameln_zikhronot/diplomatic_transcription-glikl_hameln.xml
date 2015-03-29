@@ -66,7 +66,7 @@
                      </supportDesc>
                   </objectDesc>
                   <handDesc>
-                     <p>Written in more than one hand</p>
+                     <p>Written in more than one hand (copied by Moses Hamel)</p>
                   </handDesc>
                   <decoDesc>
                      <p>No drawings</p>
@@ -85,19 +85,20 @@
       </encodingDesc>
       <profileDesc>
          <creation>
-            <date>From ca. 1650 onwards</date>
-            <rs type="place" ref="#augsburg">Augsburg</rs>
+            <date when="1689">From ca. 1689 onwards</date>
+            <rs type="place" ref="#hamburg">Hamburg</rs>
+            <rs type="place" ref="#metz">Metz</rs>
          </creation>
          <calendarDesc>
-            <calendar xml:id="julian"><p>Julian(?)</p></calendar>
+            <calendar xml:id="hebrew"><p>Hebrew</p></calendar>
          </calendarDesc>
          <langUsage>
-            <language ident="ger" usage="90">German</language>
-            <language ident="lat" usage="10">Latin</language>
+            <language ident="ger" usage="80">Yiddish</language>
+            <language ident="lat" usage="20">Hebrew</language>
          </langUsage>
          <textClass>
             <keywords>
-               <term type="historical_genre">Aufzeichnungen</term>
+               <term type="historical_genre">זיכרונות (Zikhronot)</term>
                <term type="modern_genre">Autobiography</term>
                <term type="document">Egodocument</term>
             </keywords>
