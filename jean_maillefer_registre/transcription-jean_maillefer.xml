@@ -39,11 +39,11 @@
                   <idno type="library_classification_mark">ms n° 1980</idno>
                   <altIdentifier type="library_website_catalogue"> <idno>http://www.bm-reims.fr/clientBookline/service/reference.asp?INSTANCE=EXPLOITATION&amp;OUTPUT=PORTAL&amp;DOCID=DESC_MARC_BREIMS_B514546101_MS_1980&amp;DOCBASE=FONDS_NUM_LIVRES</idno>
                   </altIdentifier>
-                  <msName>Mémoires de Jean Maillefer, continués par son fils (1667-1716),</msName>
+                  <msName>Mémoires de Jean Maillefer, continués par son fils (1667-1716)</msName>
                </msIdentifier>
                <msContents>
                   <msItem>
-                     <textLang mainLang="ger">German</textLang>
+                     <textLang mainLang="fre">French</textLang>
                   </msItem>
                </msContents>
                <physDesc>
@@ -52,11 +52,11 @@
                         <support>
                            <p>Paper</p>
                         </support>
-                        <extent>xxx leaves
+                        <extent>275 leaves
                            <dimensions scope="all" type="leaf"
-                              unit="centimeters">
-                              <height></height>
-                              <width></width>
+                              unit="millimeters">
+                              <height>335</height>
+                              <width>210</width>
                               <depth></depth>
                            </dimensions>
                         </extent>
@@ -82,19 +82,19 @@
       </encodingDesc>
       <profileDesc>
          <creation>
-            <date>From ca. 1650 onwards</date>
-            <rs type="place" ref="#">Augsburg</rs>
+            <date when="1667-06-01">From 1667 onwards</date>
+            <rs type="place" ref="#reims">Reims</rs>
          </creation>
          <calendarDesc>
-            <calendar><p>Julian(?)</p></calendar>
+            <calendar xml:id="gregorian"><p>Gregorian</p></calendar>
          </calendarDesc>
          <langUsage>
-            <language ident="ger" usage="90">German</language>
+            <language ident="fre" usage="90">French</language>
             <language ident="lat" usage="10">Latin</language>
          </langUsage>
          <textClass>
             <keywords>
-               <term type="historical_genre">Aufzeichnungen</term>
+               <term type="historical_genre">Registre</term>
                <term type="modern_genre">Autobiography</term>
                <term type="document">Egodocument</term>
             </keywords>
