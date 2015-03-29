@@ -6,15 +6,15 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>זיכרונות (Zikhronot)</title>
+            <title>Kleines Biechlin von meinem gantzen Leben“</title>
             <author>
                <name>
-                  <forename>גליקל (Glikl)</forename>
-                  <addName>von Hameln</addName>
+                  <forename>Augustin</forename>
+                  <surname>Güntzer</surname>
                </name>
-               <add type="life_dates">1645–1724</add>
-               <add type="confession">Jewish</add>
-               <add type="gender">Woman</add>
+               <add type="life_dates">1596-ca.1657</add>
+               <add type="confession">Calvinist</add>
+               <add type="gender">Man</add>
             </author>
          </titleStmt>
          <editionStmt>
@@ -36,17 +36,16 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <settlement><rs type="place" ref="#frankfurt_am_main">Frankfurt am Main</rs></settlement>
-                  <repository >Universitätsbibliothek Johann Christian Senckenberg</repository>
-                  <idno type="library_classification_mark">Ms.hebr.oct.2</idno>
-                  <altIdentifier type="library_website_catalogue">
-                     <idno>http://sammlungen.ub.uni-frankfurt.de/mshebr/urn/urn:nbn:de:hebis:30:2-598</idno>
+                  <settlement><rs type="place" ref="#basel">Basel</rs></settlement>
+                  <repository >Universitätsbibliothek</repository>
+                  <idno type="library_classification_mark">165 H V</idno>
+                  <altIdentifier type="library_website_catalogue"> <idno>http://aleph.unibas.ch/F/?local_base=DSV05&amp;con_lng=GER&amp;func=find-b&amp;find_code=SYS&amp;request=000108673</idno>
                   </altIdentifier>
-                  <msName>Zikhronot-זכרונות</msName>
+                  <msName>Autobiographie</msName>
                </msIdentifier>
                <msContents>
                   <msItem>
-                     <textLang mainLang="yid">Yiddish</textLang>
+                     <textLang mainLang="ger">German</textLang>
                   </msItem>
                </msContents>
                <physDesc>
@@ -55,21 +54,21 @@
                         <support>
                            <p>Paper</p>
                         </support>
-                        <extent>188 leaves
+                        <extent>255 leaves
                            <dimensions scope="all" type="leaf"
-                              unit="centimeters">
-                              <height>15</height>
-                              <width>10</width>
+                              unit="millimeters">
+                              <height></height>
+                              <width></width>
                               <depth></depth>
                            </dimensions>
                         </extent>
                      </supportDesc>
                   </objectDesc>
                   <handDesc>
-                     <p>Written in more than one hand (copied by Moses Hamel)</p>
+                     <p>Written in one hands</p>
                   </handDesc>
                   <decoDesc>
-                     <p>No drawings</p>
+                     <p>Multiple drawings</p>
                   </decoDesc>
                </physDesc>
             </msDesc>            
@@ -85,20 +84,20 @@
       </encodingDesc>
       <profileDesc>
          <creation>
-            <date when="1689">From ca. 1689 onwards</date>
-            <rs type="place" ref="#hamburg">Hamburg</rs>
-            <rs type="place" ref="#metz">Metz</rs>
+            <date when="1645">From ca.1645 onwards</date>
+            <rs type="place" ref="#colmar">Colmar</rs>
+            <rs type="place" ref="#basel">Basel</rs>
          </creation>
          <calendarDesc>
-            <calendar xml:id="hebrew"><p>Hebrew</p></calendar>
+            <calendar xml:id="gregorian"><p>Gregorian</p></calendar>
          </calendarDesc>
          <langUsage>
-            <language ident="ger" usage="80">Yiddish</language>
-            <language ident="lat" usage="20">Hebrew</language>
+            <language ident="ger" usage="95">German</language>
+            <language ident="lat" usage="5">Latin</language>
          </langUsage>
          <textClass>
             <keywords>
-               <term type="historical_genre">זיכרונות (Zikhronot)</term>
+               <term type="historical_genre">Biechlin</term>
                <term type="modern_genre">Autobiography</term>
                <term type="document">Egodocument</term>
             </keywords>
@@ -108,8 +107,7 @@
    <text>
       <body>
          <div type="volume">
-            <pb n="unpaginated"/>
-            <p>[To be transcribed]</p> 
+            <p>[To be transcribed]</p>
          </div>
       </body>
    </text>

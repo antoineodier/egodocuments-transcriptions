@@ -53,7 +53,7 @@
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
-                     <supportDesc material="perg">
+                     <supportDesc material="paper">
                         <support>
                            <p>Paper</p>
                         </support>
@@ -110,7 +110,7 @@
       <body>
          <div type="volume">
             <pb n="1"/>
-                  <p>[To be transcribed]</p> 
+             <p>[To be transcribed]</p> 
          </div>
       </body>
   </text>
