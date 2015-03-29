@@ -3,7 +3,7 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
+   <teiHeader>
       <fileDesc>
          <titleStmt>
             <title>Registre</title>
@@ -12,16 +12,95 @@
                   <forename>Jean</forename>
                   <surname>Maillefer</surname>
                </name>
+               <add type="life_dates">1611-1684</add>
             </author>
          </titleStmt>
+         <editionStmt>
+            <edition>Digital Edition</edition>
+            <respStmt>
+               <resp>Edited by</resp>
+               <name>
+                  <forename>Antoine</forename>
+                  <surname>Odier</surname>
+               </name>
+            </respStmt>               
+         </editionStmt>
          <publicationStmt>
-            <p>Publication Information</p>
+            <p>
+               <date>2015</date>
+               <idno type="website">address</idno>
+            </p>
          </publicationStmt>
          <sourceDesc>
-            <p>Information about the source</p>
+            <msDesc>
+               <msIdentifier>
+                  <settlement>Reims</settlement>
+                  <repository >Bibliothèque municipale</repository>
+                  <idno type="library_classification_mark">ms n° 1980</idno>
+                  <altIdentifier type="library_website_catalogue"> <idno>http://www.bm-reims.fr/clientBookline/service/reference.asp?INSTANCE=EXPLOITATION&amp;OUTPUT=PORTAL&amp;DOCID=DESC_MARC_BREIMS_B514546101_MS_1980&amp;DOCBASE=FONDS_NUM_LIVRES</idno>
+                  </altIdentifier>
+                  <msName>Mémoires de Jean Maillefer, continués par son fils (1667-1716),</msName>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <textLang mainLang="ger">German</textLang>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="perg">
+                        <support>
+                           <p>Paper</p>
+                        </support>
+                        <extent>xxx leaves
+                           <dimensions scope="all" type="leaf"
+                              unit="centimeters">
+                              <height></height>
+                              <width></width>
+                              <depth></depth>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <p>Written in one hands</p>
+                  </handDesc>
+                  <decoDesc>
+                     <p>No drawings</p>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>            
          </sourceDesc>
       </fileDesc>
-  </teiHeader>
+      <encodingDesc>
+         <projectDesc><p>Early Modern Beings and Writings digital platform</p></projectDesc>
+         <editorialDecl>
+            <normalization method="silent"><p>Normalized transcription</p></normalization>
+            <punctuation marks="none"><p>Modernized</p></punctuation>
+            <correction><p>Orthography</p></correction>
+         </editorialDecl>   
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date>From ca. 1650 onwards</date>
+            <rs type="place" ref="#">Augsburg</rs>
+         </creation>
+         <calendarDesc>
+            <calendar><p>Julian(?)</p></calendar>
+         </calendarDesc>
+         <langUsage>
+            <language ident="ger" usage="90">German</language>
+            <language ident="lat" usage="10">Latin</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="historical_genre">Aufzeichnungen</term>
+               <term type="modern_genre">Autobiography</term>
+               <term type="document">Egodocument</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
   <text>
       <body>
          <div type="volume">
