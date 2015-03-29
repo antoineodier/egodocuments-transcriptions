@@ -11,30 +11,51 @@
                <name>
                   <forename>Matheus</forename>
                   <surname>Miller</surname>
+                  <!--<forename>Jakob</forename>
+                  <placeName>Äthopien</placeName>
+                  <roleName>Kaiser</roleName>
+                  <nameLink>von</nameLink>-->
                </name>
+               <add n="life_dates">1625–1685</add>
             </author>
          </titleStmt>
+         <editionStmt>
+            <edition>Digital Edition</edition>
+            <respStmt>
+               <resp>Edited by</resp>
+               <name>
+                  <forename>Antoine</forename>
+                  <surname>Odier</surname>
+               </name>
+            </respStmt>               
+         </editionStmt>
          <publicationStmt>
-            <p>Publication Information</p>
+            <p>
+               <date>2015</date>
+               <idno type="website">address</idno>
+            </p>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
                <msIdentifier>
                   <settlement>Augsburg</settlement>
                   <repository >Stadtarchiv</repository>
-                  <idno n="http://www.stadtarchiv.augsburg.de/">EWA 59</idno>
+                  <idno type="library_classification_mark">EWA 59</idno>
+                  <altIdentifier type="library_website_catalogue">
+                     <idno>http://www.stadtarchiv.augsburg.de</idno>
+                  </altIdentifier>
                   <msName>Miller Tagebuch</msName>
                </msIdentifier>
                <msContents>
                   <msItem>
-                     <textLang mainLang="de">German</textLang>
+                     <textLang mainLang="ger">German</textLang>
                   </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="perg">
                         <support>
-                           <p>Parchment.</p>
+                           <p>Paper</p>
                         </support>
                         <extent>xxx leaves
                            <dimensions scope="all" type="leaf"
@@ -47,15 +68,42 @@
                      </supportDesc>
                   </objectDesc>
                   <handDesc>
-                     <p>Written in one hand.</p>
+                     <p>Written in one hand</p>
                   </handDesc>
                   <decoDesc>
-                     <p>No drawings.</p>
+                     <p>No drawings</p>
                   </decoDesc>
                </physDesc>
             </msDesc>            
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <projectDesc><p>Early Modern Beings and Writings digital platform</p></projectDesc>
+         <editorialDecl>
+            <normalization method="silent"><p>Normalized transcription</p></normalization>
+            <punctuation marks="none"><p>Modernized</p></punctuation>
+         </editorialDecl>   
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date>from ca. 1650 onwards</date>
+            <rs type="place" ref="#">Augsburg</rs>
+         </creation>
+         <calendarDesc>
+            <calendar><p>Julian(?)</p></calendar>
+         </calendarDesc>
+         <langUsage>
+            <language ident="ger" usage="90">German</language>
+            <language ident="lat" usage="10">Latin</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="historical_genre">Aufzeichnungen</term>
+               <term type="modern_genre">Autobiography</term>
+               <term type="document">Egodocument</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
    </teiHeader>
    <text>
       <body>
