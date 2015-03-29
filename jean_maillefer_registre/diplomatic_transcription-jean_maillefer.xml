@@ -14,7 +14,7 @@
                </name>
                <add type="life_dates">1611-1684</add>
                <add type="confession">Catholic</add>
-               <add type="gender">Male</add>
+               <add type="gender">Man</add>
             </author>
          </titleStmt>
          <editionStmt>
@@ -50,7 +50,7 @@
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
-                     <supportDesc material="perg">
+                     <supportDesc material="paper">
                         <support>
                            <p>Paper</p>
                         </support>
