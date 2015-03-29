@@ -13,7 +13,8 @@
                   <surname>Maillefer</surname>
                </name>
                <add type="life_dates">1611-1684</add>
-               <add n="confession">Catholic</add>
+               <add type="confession">Catholic</add>
+               <add type="gender">Male</add>
             </author>
          </titleStmt>
          <editionStmt>

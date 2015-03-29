@@ -6,18 +6,14 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Registre</title>
+            <title>Aufzeichnungen</title>
             <author>
                <name>
-                  <forename>Isaac</forename>
-                  <surname>Dumont</surname>
-                  <placeName>Bostaquet</placeName>
-                  <!--<roleName></roleName>-->
-                  <nameLink>de</nameLink>
+                  <forename>Matheus</forename>
+                  <surname>Miller</surname>
                </name>
-               <add type="life_dates">1632-1709</add>
-               <add type="confession">Calvinist</add>
-               <add type="gender">Male</add>
+               <add n="life_dates">1625–1685</add>
+               <add n="confession">Lutheran</add>
             </author>
          </titleStmt>
          <editionStmt>
@@ -39,17 +35,17 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <settlement><rs type="place" ref="#dublin">Dublin</rs></settlement>
-                  <repository >Royal Irish Academy</repository>
-                  <idno type="library_classification_mark">12 N 17</idno>
-                  <altIdentifier type="library_website_catalogue">              
-                     <idno>http://cats.ria.ie/ics-wpd/exec/icswppro.dll?AC=GET_RECORD&amp;XC=/ics-wpd/exec/icswppro.dll&amp;BU=http%3A%2F%2Fcats.ria.ie%2Fmanusimple.html&amp;TN=Manusc~1&amp;SN=AUTO3436&amp;SE=1332&amp;RN=0&amp;MR=35&amp;TR=0&amp;TX=1000&amp;ES=0&amp;CS=1&amp;XP=&amp;RF=Web+Display+-+List&amp;EF=&amp;DF=Web+Display+-+Full&amp;RL=1&amp;EL=1&amp;DL=1&amp;NP=1&amp;ID=&amp;MF=&amp;MQ=&amp;TI=0&amp;DT=&amp;ST=0&amp;IR=626&amp;NR=0&amp;NB=0&amp;SV=0&amp;SS=0&amp;BG=&amp;FG=&amp;QS=manusimple-out&amp;OEX=ISO-8859-1&amp;OEH=ISO-8859-1</idno>
+                  <settlement><rs type="place" ref="#augsburg">Augsburg</rs></settlement>
+                  <repository >Stadtarchiv</repository>
+                  <idno type="library_classification_mark">EWA 59</idno>
+                  <altIdentifier type="library_website_catalogue">
+                     <idno>http://www.stadtarchiv.augsburg.de</idno>
                   </altIdentifier>
-                  <msName>Memoirs of Isaac Dumont Du Bostaquet, on the period of the revocation of the Edict of Nantes and William III's campaigns in England and Ireland</msName>
+                  <msName>Miller Tagebuch</msName>
                </msIdentifier>
                <msContents>
                   <msItem>
-                     <textLang mainLang="fre">French</textLang>
+                     <textLang mainLang="ger">German</textLang>
                   </msItem>
                </msContents>
                <physDesc>
@@ -58,7 +54,7 @@
                         <support>
                            <p>Paper</p>
                         </support>
-                        <extent>281 leaves
+                        <extent>xxx leaves
                            <dimensions scope="all" type="leaf"
                               unit="centimeters">
                               <height></height>
@@ -88,33 +84,31 @@
       </encodingDesc>
       <profileDesc>
          <creation>
-            <date when="1688-04">From April 1688 onwards</date>
-            <rs type="place" ref="#the_hague">The Hague</rs>
+            <date>From ca. 1650 onwards</date>
+            <rs type="place" ref="#augsburg">Augsburg</rs>
          </creation>
          <calendarDesc>
             <calendar xml:id="julian"><p>Julian(?)</p></calendar>
          </calendarDesc>
          <langUsage>
-            <language ident="fre" usage="90">French</language>
+            <language ident="ger" usage="90">German</language>
             <language ident="lat" usage="10">Latin</language>
          </langUsage>
          <textClass>
             <keywords>
-               <term type="historical_genre">Registre</term>
+               <term type="historical_genre">Aufzeichnungen</term>
                <term type="modern_genre">Autobiography</term>
                <term type="document">Egodocument</term>
             </keywords>
          </textClass>
       </profileDesc>
    </teiHeader>
-  <text>
+   <text>
       <body>
          <div type="volume">
-            <pb n="1"/>
-               <p> 
-                  
-               </p>
+            <pb n="unpaginated"/>
+            <p>[To be transcribed]</p> 
          </div>
       </body>
-  </text>
+   </text>
 </TEI>

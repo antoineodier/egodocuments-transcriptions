@@ -12,8 +12,9 @@
                   <forename>Matheus</forename>
                   <surname>Miller</surname>
                </name>
-               <add n="life_dates">1625–1685</add>
-               <add n="confession">Lutheran</add>
+               <add type="life_dates">1625–1685</add>
+               <add type="confession">Lutheran</add>
+               <add type="gender">Male</add>
             </author>
          </titleStmt>
          <editionStmt>

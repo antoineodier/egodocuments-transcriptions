@@ -15,8 +15,9 @@
                   <!--<roleName></roleName>-->
                   <nameLink>de</nameLink>
                </name>
-               <add n="life_dates">1632-1709</add>
-               <add n="confession">Calvinist</add>
+               <add type="life_dates">1632-1709</add>
+               <add type="confession">Calvinist</add>
+               <add type="gender">Male</add>
             </author>
          </titleStmt>
          <editionStmt>
