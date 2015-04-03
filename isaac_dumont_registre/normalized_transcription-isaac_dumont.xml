@@ -11,9 +11,9 @@
                <name>
                   <forename>Isaac</forename>
                   <surname>Dumont</surname>
+                  <nameLink>de</nameLink>
                   <placeName>Bostaquet</placeName>
                   <!--<roleName></roleName>-->
-                  <nameLink>de</nameLink>
                </name>
                <add type="life_dates">1632-1709</add>
                <add type="confession">Calvinist</add>
