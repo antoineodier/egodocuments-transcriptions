@@ -6,14 +6,14 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Registre</title>
+            <title>Kleines Biechlin von meinem gantzen Leben“</title>
             <author>
                <name>
-                  <forename>Jean</forename>
-                  <surname>Maillefer</surname>
+                  <forename>Augustin</forename>
+                  <surname>Güntzer</surname>
                </name>
-               <add type="life_dates">1611-1684</add>
-               <add type="confession">Catholic</add>
+               <add type="life_dates">1596-ca.1657</add>
+               <add type="confession">Calvinist</add>
                <add type="gender">Man</add>
             </author>
          </titleStmt>
@@ -36,16 +36,16 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <settlement><rs type="place" ref="#reims">Reims</rs></settlement>
-                  <repository >Bibliothèque municipale</repository>
-                  <idno type="library_classification_mark">ms n° 1980</idno>
-                  <altIdentifier type="library_website_catalogue"> <idno>http://www.bm-reims.fr/clientBookline/service/reference.asp?INSTANCE=EXPLOITATION&amp;OUTPUT=PORTAL&amp;DOCID=DESC_MARC_BREIMS_B514546101_MS_1980&amp;DOCBASE=FONDS_NUM_LIVRES</idno>
+                  <settlement><rs type="place" ref="#basel">Basel</rs></settlement>
+                  <repository >Universitätsbibliothek</repository>
+                  <idno type="library_classification_mark">165 H V</idno>
+                  <altIdentifier type="library_website_catalogue"> <idno>http://aleph.unibas.ch/F/?local_base=DSV05&amp;con_lng=GER&amp;func=find-b&amp;find_code=SYS&amp;request=000108673</idno>
                   </altIdentifier>
-                  <msName>Mémoires de Jean Maillefer, continués par son fils (1667-1716)</msName>
+                  <msName>Autobiographie</msName>
                </msIdentifier>
                <msContents>
                   <msItem>
-                     <textLang mainLang="fre">French</textLang>
+                     <textLang mainLang="ger">German</textLang>
                   </msItem>
                </msContents>
                <physDesc>
@@ -54,11 +54,11 @@
                         <support>
                            <p>Paper</p>
                         </support>
-                        <extent>275 leaves
+                        <extent>255 leaves
                            <dimensions scope="all" type="leaf"
                               unit="millimeters">
-                              <height>335</height>
-                              <width>210</width>
+                              <height></height>
+                              <width></width>
                               <depth></depth>
                            </dimensions>
                         </extent>
@@ -68,7 +68,7 @@
                      <p>Written in one hands</p>
                   </handDesc>
                   <decoDesc>
-                     <p>No drawings</p>
+                     <p>Multiple drawings</p>
                   </decoDesc>
                </physDesc>
             </msDesc>            
@@ -84,19 +84,20 @@
       </encodingDesc>
       <profileDesc>
          <creation>
-            <date when="1667-06-01">From 1667 onwards</date>
-            <rs type="place" ref="#reims">Reims</rs>
+            <date when="1645">From ca.1645 onwards</date>
+            <rs type="place" ref="#colmar">Colmar</rs>
+            <rs type="place" ref="#basel">Basel</rs>
          </creation>
          <calendarDesc>
             <calendar xml:id="gregorian"><p>Gregorian</p></calendar>
          </calendarDesc>
          <langUsage>
-            <language ident="fre" usage="90">French</language>
-            <language ident="lat" usage="10">Latin</language>
+            <language ident="ger" usage="95">German</language>
+            <language ident="lat" usage="5">Latin</language>
          </langUsage>
          <textClass>
             <keywords>
-               <term type="historical_genre">Registre</term>
+               <term type="historical_genre">Biechlin</term>
                <term type="modern_genre">Autobiography</term>
                <term type="document">Egodocument</term>
             </keywords>
@@ -106,73 +107,7 @@
   <text>
       <body>
          <div type="volume">
-            <pb n="1r"/>
-               <p> 
-                  <add place="margin_left"> 
-                     <lb/>Commencé le
-                     <lb/><date calendar="gregorian" when="1667-06-01">premier Juing
-                     <lb/>1667</date>
-                  </add>
-               </p>
-               <p>
-                  <lb/><title>au publique</title>
-               </p>
-                  <p>
-                     <lb/>Monseigneur 
-                  </p>
-               <p>
-                  <lb/>dans un long ennuye, pour des Raisons qui vous ennuiroient
-                  <lb/>a les entendre et moy daduantage a vous les dire, qui nous sont
-                  <lb/>neantmoing Communes mais une principalle Cest que me
-                  <lb/>voyant Jnutil a cause de mon Jnfirmité de l'ouye de
-                  <lb/>vous faire seruire ou de vous  estre vtil Jay esté beaucoup
-                  <lb/>Consolé que dieu mayt donné huict fils sans Compter
-                  <lb/>les filles lesquels sy Jls mobeissent seront vos seruiteurs
-                  <lb/>et Repareront les pertes que vous Recepues a tous moments
-                  <lb/>de quelqueunes de vos parties Ce quy ne mayant pas <choice><abbr>entierem<c>t</c></abbr><expan>entierement</expan></choice>
-                  <lb/>satisfait Jay esté bien aisé de vous embelire dans vn
-                  <lb/>abandonnement que on peut dire quasy general ou vous
-                  <lb/>est soit par la negligence l'imposibilité ou le trop grand
-                  <lb/>menage de Ceux qui vous Composent et pour Ce Jay fait
-                  <lb/>batir auecq le plus de simetrye et que le lieu ma peue
-                  <lb/>permettre Car on dit et Jl est vraye que les bastiments
-                  <lb/>vous ornent autant et plus que les point peruques brocarts
-                  <lb/>estophes Rayes font plusieurs de vos Jndiuidus
-                  <lb/>Monseigneur donques
-                  <lb/>Je die a vos beaux esprits
-                  <lb/>que je Reueue Ces escrits
-                  <lb/>a ne vous en pas mentir
-                  <lb/>Je Retranché la satir
-                  <lb/>Sy vous me demandes quelle fin encore Je me propose Je vous
-                  <lb/>diray que Ce nest ny la gloire ny linterest la premiere
-                  <lb/>est belle mais pour lacquerir la faut fuire et elle suit
-                  <lb/>laultre est necessaire Ce a esté pour moccuper aux heures
-                  <lb/>que je ne scay que faire ny mesme me diuertir et pour
-                  <lb/>minstruire et pour seruir a mes enfans Cest tout sur
-                  <lb/>la moralle et du Commerce Cest lhonneste et lutil
-                  <lb/>que naye je des puissances proportionnes a mes
-                  <lb/>mouuements et aux desirs de vous tesmoigner que
-                  <lb/>Je vous suis
-               </p>                  
-               <p>
-                  <lb/>
-                  <lb/>
-                  <lb/>Monse<unclear reason="stain">igne</unclear>ur &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Vostre
-               </p>
-            <pb n="1v"/>
-            <pb n="2r"/>
-            <p>
-               <lb/><title>au lecteur</title>   
-            </p>
-            <p>
-               <lb/>Mon cher lecteur
-               <lb/>Cela sentend sy vous lizés Ie ne vous demande 
-               <lb/>vostre approbation ny Je ne me soucye de vostre
-               <lb/>Censure on scait asses que Il ny a personne Dont
-               <lb/>les escrits ou les art
-            </p>
-            <pb n="2v"/>
-            <pb n="3r"/>
+            <p>[To be transcribed]</p>
          </div>
       </body>
   </text>
