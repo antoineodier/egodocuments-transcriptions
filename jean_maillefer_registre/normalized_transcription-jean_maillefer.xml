@@ -54,7 +54,7 @@
                         <support>
                            <p>Paper</p>
                         </support>
-                        <extent>275 leaves
+                        <extent style="f.">275 leaves
                            <dimensions scope="all" type="leaf"
                               unit="millimeters">
                               <height>335</height>
@@ -106,7 +106,7 @@
   <text>
       <body>
          <div type="volume">
-            <pb n="1r" type="f"/>
+            <pb n="1r"/>
                <p> 
                   <add place="margin_left"> 
                      <lb/>Commencé le
