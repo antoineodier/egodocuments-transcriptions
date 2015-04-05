@@ -25,7 +25,7 @@
                   <forename>Antoine</forename>
                   <surname>Odier</surname>
                </name>
-            </respStmt>               
+            </respStmt>
          </editionStmt>
          <publicationStmt>
             <p>
@@ -71,7 +71,7 @@
                      <p>No drawings</p>
                   </decoDesc>
                </physDesc>
-            </msDesc>            
+            </msDesc>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
@@ -80,7 +80,7 @@
             <normalization method="silent"><p>Normalized transcription</p></normalization>
             <punctuation marks="none"><p>Modernized</p></punctuation>
             <correction><p>Orthography</p></correction>
-         </editorialDecl>   
+         </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <creation>
@@ -107,8 +107,8 @@
       <body>
          <div type="volume">
             <pb n="1r"/>
-               <p> 
-                  <add place="margin_left"> 
+               <p>
+                  <add place="margin_left">
                      <lb/>Commencé le
                      <lb/><date calendar="gregorian" when="1667-06-01">premier Juing
                      <lb/>1667</date>
@@ -118,7 +118,7 @@
                   <lb/><title>au publique</title>
                </p>
                   <p>
-                     <lb/>Monseigneur 
+                     <lb/>Monseigneur
                   </p>
                <p>
                   <lb/>dans un long ennuye, pour des Raisons qui vous ennuiroient
@@ -127,7 +127,7 @@
                   <lb/>voyant Jnutil a cause de mon Jnfirmité de l'ouye de
                   <lb/>vous faire seruire ou de vous  estre vtil Jay esté beaucoup
                   <lb/>Consolé que dieu mayt donné huict fils sans Compter
-                  <lb/>les filles lesquels sy Jls mobeissent seront vos seruiteurs
+                  <lb/>les filles lesquels sy Jls mobeissent seront vos seruiteurss
                   <lb/>et Repareront les pertes que vous Recepues a tous moments
                   <lb/>de quelqueunes de vos parties Ce quy ne mayant pas <choice><abbr>entierem<c>t</c></abbr><expan>entierement</expan></choice>
                   <lb/>satisfait Jay esté bien aisé de vous embelire dans vn
@@ -153,7 +153,7 @@
                   <lb/>que naye je des puissances proportionnes a mes
                   <lb/>mouuements et aux desirs de vous tesmoigner que
                   <lb/>Je vous suis
-               </p>                  
+               </p>
                <p>
                   <lb/>
                   <lb/>
@@ -162,11 +162,11 @@
             <pb n="1v"/>
             <pb n="2r"/>
             <p>
-               <lb/><title>au lecteur</title>   
+               <lb/><title>au lecteur</title>
             </p>
             <p>
                <lb/>Mon cher lecteur
-               <lb/>Cela sentend sy vous lizés Ie ne vous demande 
+               <lb/>Cela sentend sy vous lizés Ie ne vous demande
                <lb/>vostre approbation ny Je ne me soucye de vostre
                <lb/>Censure on scait asses que Il ny a personne Dont
                <lb/>les escrits ou les art
