@@ -106,14 +106,10 @@
   <text>
       <body>
          <div type="volume">
-            <pb n="1r"/>
-               <p> 
-                  <add place="margin_left"> 
-                     <lb/>Commencé le
-                     <lb/><date calendar="gregorian" when="1667-06-01">premier Juing
-                     <lb/>1667</date>
-                  </add>
-               </p>
+<pb n="1r"/>
+               Gérard
+               
+               
                <p>
                   <lb/><title>au publique</title>
                </p>
