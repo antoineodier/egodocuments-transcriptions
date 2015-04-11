@@ -106,8 +106,7 @@
   <text>
       <body>
          <div type="volume">
-             <pb n="1r"/>
-               <p> 
+             <pb n="1r"/>               <p> 
                   <add place="margin_left"> 
                      <lb/>Commencé le
                      <lb/><date calendar="gregorian" when="1667-06-01">premier Juing
@@ -159,9 +158,7 @@
                   <lb/>
                   <lb/>Monse<unclear reason="stain">igne</unclear>ur &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Vostre
                </p>
-            <pb n="1v"/>
-            <pb n="2r"/>
-            <p>
+                        <pb n="1v"/>                        <pb n="2r"/>            <p>
                <lb/><title>au lecteur</title>   
             </p>
             <p>
@@ -171,8 +168,7 @@
                <lb/>Censure on scait asses que Il ny a personne Dont
                <lb/>les escrits ou les art
             </p>
-            <pb n="2v"/>
-            <pb n="3r"/>
+                        <pb n="2v"/>            <pb n="3r"/>
          </div>
       </body>
   </text>
