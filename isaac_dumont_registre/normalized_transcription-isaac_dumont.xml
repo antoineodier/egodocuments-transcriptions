@@ -39,10 +39,11 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <settlement><rs type="place" ref="#dublin">Dublin</rs></settlement>
+                  <settlement><rs type="place" ref="#dublin">Dublin</rs><rs type="country" ref="#ireland">Ireland</rs></settlement>
                   <repository >Royal Irish Academy</repository>
                   <idno type="library_classification_mark">12 N 17</idno>
-                  <altIdentifier type="library_website_catalogue">              <idno>http://cats.ria.ie/ics-wpd/exec/icswppro.dll?AC=GET_RECORD&amp;XC=/ics-wpd/exec/icswppro.dll&amp;BU=http%3A%2F%2Fcats.ria.ie%2Fmanusimple.html&amp;TN=Manusc~1&amp;SN=AUTO3436&amp;SE=1332&amp;RN=0&amp;MR=35&amp;TR=0&amp;TX=1000&amp;ES=0&amp;CS=1&amp;XP=&amp;RF=Web+Display+-+List&amp;EF=&amp;DF=Web+Display+-+Full&amp;RL=1&amp;EL=1&amp;DL=1&amp;NP=1&amp;ID=&amp;MF=&amp;MQ=&amp;TI=0&amp;DT=&amp;ST=0&amp;IR=626&amp;NR=0&amp;NB=0&amp;SV=0&amp;SS=0&amp;BG=&amp;FG=&amp;QS=manusimple-out&amp;OEX=ISO-8859-1&amp;OEH=ISO-8859-1</idno>
+                  <altIdentifier type="library_website_catalogue">              
+                     <idno>http://cats.ria.ie/ics-wpd/exec/icswppro.dll?AC=GET_RECORD&amp;XC=/ics-wpd/exec/icswppro.dll&amp;BU=http%3A%2F%2Fcats.ria.ie%2Fmanusimple.html&amp;TN=Manusc~1&amp;SN=AUTO3436&amp;SE=1332&amp;RN=0&amp;MR=35&amp;TR=0&amp;TX=1000&amp;ES=0&amp;CS=1&amp;XP=&amp;RF=Web+Display+-+List&amp;EF=&amp;DF=Web+Display+-+Full&amp;RL=1&amp;EL=1&amp;DL=1&amp;NP=1&amp;ID=&amp;MF=&amp;MQ=&amp;TI=0&amp;DT=&amp;ST=0&amp;IR=626&amp;NR=0&amp;NB=0&amp;SV=0&amp;SS=0&amp;BG=&amp;FG=&amp;QS=manusimple-out&amp;OEX=ISO-8859-1&amp;OEH=ISO-8859-1</idno>
                   </altIdentifier>
                   <msName>Memoirs of Isaac Dumont Du Bostaquet, on the period of the revocation of the Edict of Nantes and William III's campaigns in England and Ireland</msName>
                </msIdentifier>
@@ -112,6 +113,8 @@
             <pb n="1"/>
              <p>[To be transcribed]</p>
             <pb n="2"/>
+            <p>[To be transcribed]</p>
+            <pb n="3"/>
          </div>
       </body>
   </text>
