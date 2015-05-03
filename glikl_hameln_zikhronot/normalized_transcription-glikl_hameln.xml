@@ -6,10 +6,12 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>זיכרונות (Zikhronot)</title>
+            <title type="hebrew_chars">זיכרונות</title>
+            <title type="transliterated">Zikhronot</title>
             <author>
                <name>
-                  <forename>גליקל (Glikl)</forename>
+                  <forename type="hebrew_chars">גליקל</forename>
+                  <forename type="transliterated">Glikl</forename>
                   <addName>von Hameln</addName>
                </name>
                <add type="life_dates">1645–1724</add>
