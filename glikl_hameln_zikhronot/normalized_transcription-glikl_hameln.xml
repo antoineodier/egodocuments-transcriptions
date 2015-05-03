@@ -110,8 +110,13 @@
    <text>
       <body>
          <div type="volume">
-            <pb n="unpaginated"/>
+            <pb n="1" type="unpaginated"/>
             <p>[To be transcribed]</p> 
+            <pb n="2" type="unpaginated"/>
+            <p>[To be transcribed]</p>
+            <pb n="אr"/>
+            <p>[To be transcribed]</p>
+            <pb n="אv" type="unpaginated"/>
          </div>
       </body>
    </text>
