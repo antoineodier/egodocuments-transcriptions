@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!--<?xml-stylesheet type="text/css" href="test.css"?>-->
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
@@ -25,19 +26,20 @@
                   <forename>Antoine</forename>
                   <surname>Odier</surname>
                </name>
-            </respStmt>               
+            </respStmt>
          </editionStmt>
          <publicationStmt>
             <p>
                <date>2015</date>
-               <idno type="website">address</idno>
+               <idno type="website">http://www.embaw.eu</idno>
             </p>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <settlement><rs type="place" ref="#frankfurt_am_main">Frankfurt am Main</rs></settlement>
-                  <repository >Universitätsbibliothek Johann Christian Senckenberg</repository>
+                  <settlement><rs type="place" ref="#frankfurt_am_main">Frankfurt am Main</rs><rs
+                        type="country" ref="#germany">Germany</rs></settlement>
+                  <repository>Universitätsbibliothek Johann Christian Senckenberg</repository>
                   <idno type="library_classification_mark">Ms.hebr.oct.2</idno>
                   <altIdentifier type="library_website_catalogue">
                      <idno>http://sammlungen.ub.uni-frankfurt.de/mshebr/urn/urn:nbn:de:hebis:30:2-598</idno>
@@ -55,33 +57,39 @@
                         <support>
                            <p>Paper</p>
                         </support>
-                        <extent>188 leaves
-                           <dimensions scope="all" type="leaf"
-                              unit="centimeters">
+                        <extent>188 leaves <dimensions scope="all" type="leaf" unit="centimeters">
                               <height>15</height>
                               <width>10</width>
-                              <depth></depth>
+                              <depth/>
                            </dimensions>
                         </extent>
                      </supportDesc>
                   </objectDesc>
                   <handDesc>
-                     <p>Written in more than one hand (copied by Moses Hamel)</p>
+                     <p>Copied by Moses Hamel (autograph manuscript is lost)</p>
                   </handDesc>
                   <decoDesc>
                      <p>No drawings</p>
                   </decoDesc>
                </physDesc>
-            </msDesc>            
+            </msDesc>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <projectDesc><p>Early Modern Beings and Writings digital platform</p></projectDesc>
+         <projectDesc>
+            <p>Early Modern Beings and Writings digital platform</p>
+         </projectDesc>
          <editorialDecl>
-            <normalization method="silent"><p>Diplomatic transcription</p></normalization>
-            <punctuation marks="all"><p>Original</p></punctuation>
-            <correction><p>None</p></correction>
-         </editorialDecl>   
+            <normalization method="silent">
+               <p>Diplomatic transcription</p>
+            </normalization>
+            <punctuation marks="all">
+               <p>Original</p>
+            </punctuation>
+            <correction>
+               <p>None</p>
+            </correction>
+         </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <creation>
@@ -90,7 +98,9 @@
             <rs type="place" ref="#metz">Metz</rs>
          </creation>
          <calendarDesc>
-            <calendar xml:id="hebrew"><p>Hebrew</p></calendar>
+            <calendar xml:id="hebrew">
+               <p>Hebrew</p>
+            </calendar>
          </calendarDesc>
          <langUsage>
             <language ident="ger" usage="80">Yiddish</language>
@@ -110,18 +120,24 @@
          <div type="volume">
             <pb n="1"/>
             <p>
-               <lb/><writing style="square_script">זה                <lb/><unclear reason="illegible"
-                  >הש</unclear>עד לה׳ צדיקים יבאו בו</writing>
-            </p>   
+               <lb/><writing style="square_script">זה <lb/><unclear reason="illegible"
+                  >הש</unclear>עד ל<choice>
+                     <abbr>ה׳</abbr>
+                     <expan>השם</expan>
+                  </choice> צדיקים יבאו בו</writing>
+            </p>
             <p>
-               <lb/>הספר ה״לד אידט אות באות מגוף הכתב של הצדיקי <lb/> אמי יקנש <rs>גליקל</rs> ע״ה
-               תהא נשמתה צרורה בצרור<lb/> החיים טראנצלאדיהרט ווארדן , ע״י אדוני אבי<lb/> האלוף
-               התורני הרבני מופלא ומופלג מוהרח משה<lb/> האמיל סג״ל נרו יאיר לנצח, אב״ד דק״ק
+               <lb/>הספר הלז איזט אות באות מגוף הכתב של הצדיקי <lb/> אמי יקנש <rs>גליקל</rs>
+               <choice>
+                  <abbr>ע״ה</abbr>
+                  <expan>עליה השלום</expan>
+               </choice> תהא נשמתה צרורה בצרור<lb/> החיים טראנצלאדיהרט ווארדן , ע״י אדוני אבי<lb/>
+               האלוף התורני הרבני מופלא ומופלג מוהרח משה<lb/> האמיל סג״ל נרו יאיר לנצח, אב״ד דק״ק
                   <rs>פייארשדורף</rs><lb/> והמדינה וכאשר <unclear reason="illegible">ז</unclear>כינו
                לסדר אותו כן נזכו <lb/> ל<unclear reason="illegible">ע</unclear>שותה ולמען י<unclear
                   reason="illegible">ד</unclear>עו דורתיכ׳ עשיתי זאת לכבוד בית<lb/> אבא וזאת היא
                מהתי הקטן חיים האמיל בן הדב הנל״ <lb/>מק״ק <rs>פייארשדורף</rs>
-            </p> 
+            </p>
             <p><lb/>לפרט למען ת&#1431;ספ&#1431;ר ב&#1431;א&#1431;זני <lb/>בנך&#1431;
                ל&#1431;פ&#1431;ק&#1431;</p>
             <p><lb/><unclear reason="illegible">זא</unclear>ת לזכרון אתי מאת בובי מורי <rs>חיים
@@ -130,38 +146,33 @@
                <unclear reason="illegible">סג״</unclear>ל מצל מפ״ר הלך לעולמו ושבק לנו ולכל
                   <rs>ישראיל</rs><lb/>
                <unclear reason="illegible">מי</unclear> זקל ושבע ימים ביום ש״ק ך״ז א״ש תקמ״ח לפ״ק
-                  <lb/><unclear reason="illegible">וש</unclear>ני חייו היו ששה ושבעים וזאת כתבתי
-            </p>
-               <p><lb/><unclear reason="illegible">ל</unclear>כרון הקטן חיים האמיל בן כ״ה יוסף סג״ל
+                  <lb/><unclear reason="illegible">וש</unclear>ני חייו היו ששה ושבעים וזאת כתבתי </p>
+            <p><lb/><unclear reason="illegible">ל</unclear>כרון הקטן חיים האמיל בן כ״ה יוסף סג״ל
                זצ״ל <lb/>מבייארשדורף פה <rs>קעניגסבערג</rs></p>
             <pb n="2"/>
-               <p>
-                  <lb/>Ms.hebr.oct.2
-                  <lb/>STADTBIBLIOTHEK
-                  <lb/>FRANKFURT A. M.
-               </p>
+            <p>
+               <lb/>Ms.hebr.oct.2 <lb/>STADTBIBLIOTHEK <lb/>FRANKFURT A. M. </p>
             <pb n="אr"/>
             <p>
-               <lb/>בס״ד
-            </p>
+               <lb/>בס״ד </p>
             <p><lb/>שנת תנ״א אתחיל לכתוב זה מרוב דאגות וצרות ומכאובי<lb/>לב וויא ווייטר פולגין
-               ווערט, וה׳ ישמחנו כימות ענותינו<lb/>וישלח משיחינו וגואלינו במהרה אמן.    </p>
-               <p><lb/>כל מה שברא הקב״ה לה ברא אלא לכבודו, והעולם בחסד יבנה<lb/>מיר ווישין דאז המקום
-               ב״ה  וב״ש אליש בישאפין אונ׳ גיטאן מיט  <lb/>אייטיל חסד ורחוים כי המקום ב״ה האט ניט
+               ווערט, וה׳ ישמחנו כימות ענותינו<lb/>וישלח משיחינו וגואלינו במהרה אמן. </p>
+            <p><lb/>כל מה שברא הקב״ה לה ברא אלא לכבודו, והעולם בחסד יבנה<lb/>מיר ווישין דאז המקום
+               ב״ה וב״ש אליש בישאפין אונ׳ גיטאן מיט <lb/>אייטיל חסד ורחוים כי המקום ב״ה האט ניט
                ניטיג אייניש <lb/>פון זיין בישעפנים, אביר דאש הש״י זוא פיל ארלייא האט<lb/>בישאפין
                איזט אליש צו זייניר גרושי ער הונ׳ האט אליש מ <lb/>מיט חסד ורחמים בישאפין דאז עש אונש
                זינדיגי מענשין<lb/>אליש צו ניטצ קומט, דאן אליש וואז בישאפין איזט קומט<lb/>אונש מענשין
-               אליש צו נוטצין, דאז מירמענשין שונט ניט<lb/>ביגרייפין אודיר ביטראכטין קענין, אליש
-               וויא דוד ה<lb/>המלך ע״ה גיפראגט <unclear reason="illegible">ה</unclear>אט וואור צו
-               איין נאר אונ׳ איין<lb/>וועשפא אונ׳ איין שפין איזט בישאפין ווארדין, דען א<lb/>איהם האט
-               גידאכט וואז קומין דיא דרייארלייא צו נוטץ   <lb/>אין דער וועלט, אביר ער איזט ענטליך
+               אליש צו נוטצין, דאז מירמענשין שונט ניט<lb/>ביגרייפין אודיר ביטראכטין קענין, אליש וויא
+               דוד ה<lb/>המלך ע״ה גיפראגט <unclear reason="illegible">ה</unclear>אט וואור צו איין
+               נאר אונ׳ איין<lb/>וועשפא אונ׳ איין שפין איזט בישאפין ווארדין, דען א<lb/>איהם האט
+               גידאכט וואז קומין דיא דרייארלייא צו נוטץ <lb/>אין דער וועלט, אביר ער איזט ענטליך
                גיוואר ווארדין<lb/>דאז איהם זעלבירט אלי דרייארלי זענין צו נוטץ קומין אונ׳<lb/>איהם
                זיין חיות גאט צו פאר ערהאלטין אלש וויא אין ספר<lb/>מלכים בישריבן איזט ווער ווישין
                וויל קאן אין עשרים וארבע <lb/>לייאין, נון איזט אויך ווישיקליך וויא פילטריפזאל
                אילינד<lb/>ווידר ווילין דאז מיר זינדיגי מענשין אין דיזיר פרגענקליכי<lb/>וועלט האבין
                צו דער פינדין מיר וויא פיל פרוימי לייט ז<lb/>זיינין אין דער וועלט דיא עש גאר איבל גיט
                אונ׳ בעולםהוה<lb/><lb/></p>
-            <pb n="אv"/> 
+            <pb n="אv"/>
          </div>
       </body>
    </text>
