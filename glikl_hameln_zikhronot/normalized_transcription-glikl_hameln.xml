@@ -39,7 +39,8 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <settlement><rs type="place" ref="#frankfurt_am_main">Frankfurt am Main</rs></settlement>
+                  <settlement><rs type="place" ref="#frankfurt_am_main">Frankfurt am Main</rs><rs
+                     type="country" ref="#germany">Germany</rs></settlement>
                   <repository >Universitätsbibliothek Johann Christian Senckenberg</repository>
                   <idno type="library_classification_mark">Ms.hebr.oct.2</idno>
                   <altIdentifier type="library_website_catalogue">

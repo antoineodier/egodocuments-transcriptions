@@ -36,7 +36,7 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <settlement><rs type="place" ref="#reims">Reims</rs></settlement>
+                  <settlement><rs type="place" ref="#reims">Reims</rs><rs type="country" ref="#france">France</rs></settlement>
                   <repository >Bibliothèque municipale</repository>
                   <idno type="library_classification_mark">ms n° 1980</idno>
                   <altIdentifier type="library_website_catalogue"> <idno>http://www.bm-reims.fr/clientBookline/service/reference.asp?INSTANCE=EXPLOITATION&amp;OUTPUT=PORTAL&amp;DOCID=DESC_MARC_BREIMS_B514546101_MS_1980&amp;DOCBASE=FONDS_NUM_LIVRES</idno>
