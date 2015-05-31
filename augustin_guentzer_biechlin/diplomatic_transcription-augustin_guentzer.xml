@@ -36,7 +36,7 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <settlement><rs type="place" ref="#basel">Basel</rs></settlement>
+                  <settlement><rs type="place" ref="#basel">Basel</rs><rs type="country" ref="#switzerland">Switzerland</rs></settlement>
                   <repository >Universitätsbibliothek</repository>
                   <idno type="library_classification_mark">165 H V</idno>
                   <altIdentifier type="library_website_catalogue"> <idno>http://aleph.unibas.ch/F/?local_base=DSV05&amp;con_lng=GER&amp;func=find-b&amp;find_code=SYS&amp;request=000108673</idno>
@@ -107,6 +107,17 @@
   <text>
       <body>
          <div type="volume">
+            <pb n="1r"/>
+            <p>[To be transcribed]</p>
+            <pb n="1v"/>
+            <p>[To be transcribed]</p>
+            <pb n="unpaginated (1)"/>
+            <p>[To be transcribed]</p>
+            <pb n="unpaginated (2)"/>
+            <p>[To be transcribed]</p>
+            <pb n="2r"/>
+            <p>[To be transcribed]</p>
+            <pb n="2v"/>
             <p>[To be transcribed]</p>
          </div>
       </body>
