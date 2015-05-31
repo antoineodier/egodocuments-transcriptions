@@ -10,8 +10,10 @@
             <title>זיכרונות (Zikhronot)</title>
             <author>
                <name>
-                  <forename>גליקל (Glikl)</forename>
-                  <addName>von Hameln</addName>
+                  <forename type="hebrew_chars">גליקל</forename>
+                  <forename type="transliterated">Glikl</forename>
+                  <nameLink>von</nameLink>
+                  <addName>Hameln</addName>
                </name>
                <add type="life_dates">1645–1724</add>
                <add type="confession">Jewish</add>
