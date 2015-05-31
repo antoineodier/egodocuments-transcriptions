@@ -131,7 +131,7 @@
   </xsl:template>
 
   <xsl:template match="tei:writing[@style='square_script']">
-    <div style="font-size: 230%;">
+    <div style="font-size: 230%; line-height: 160%;">
       <b>
         <xsl:apply-templates/>
       </b>

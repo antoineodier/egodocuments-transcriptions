@@ -131,15 +131,38 @@
                <choice>
                   <abbr>ע״ה</abbr>
                   <expan>עליה השלום</expan>
-               </choice> תהא נשמתה צרורה בצרור<lb/> החיים טראנצלאדיהרט ווארדן , ע״י אדוני אבי<lb/>
-               האלוף התורני הרבני מופלא ומופלג מוהרח משה<lb/> האמיל סג״ל נרו יאיר לנצח, אב״ד דק״ק
-                  <rs>פייארשדורף</rs><lb/> והמדינה וכאשר <unclear reason="illegible">ז</unclear>כינו
+               </choice> תהא נשמתה צרורה בצרור<lb/> החיים טראנצלאדיהרט ווארדן , <choice>
+                  <abbr>ע״י</abbr>
+                  <expan>על ידי</expan>
+               </choice> אדוני אבי<lb/> האלוף התורני הרבני מופלא ומופלג <choice>
+                  <abbr>מוהרח</abbr>
+                  <expan>מורנו הרב ר׳</expan>
+               </choice> משה<lb/> האמיל סג״ל נרו יאיר לנצח, <choice>
+                  <abbr>אב״ד</abbr>
+                  <expan>אב בית דין</expan>
+               </choice>
+               <choice>
+                  <abbr>דק״ק</abbr>
+                  <expan>דקהילה קדושה</expan>
+               </choice>
+               <rs>פייארשדורף</rs><lb/> והמדינה וכאשר <unclear reason="illegible">ז</unclear>כינו
                לסדר אותו כן נזכו <lb/> ל<unclear reason="illegible">ע</unclear>שותה ולמען י<unclear
                   reason="illegible">ד</unclear>עו דורתיכ׳ עשיתי זאת לכבוד בית<lb/> אבא וזאת היא
-               מהתי הקטן חיים האמיל בן הדב הנל״ <lb/>מק״ק <rs>פייארשדורף</rs>
+               מהתי הקטן חיים האמיל בן הדב <choice>
+                  <abbr>הנ״ל</abbr>
+                  <expan>הנזכר למעלה</expan>
+               </choice>
+               <lb/><choice>
+                  <abbr>מק״ק</abbr>
+                  <expan>מקהילת קודש</expan>
+               </choice>
+               <rs>פייארשדורף</rs>
             </p>
-            <p><lb/>לפרט למען ת&#1431;ספ&#1431;ר ב&#1431;א&#1431;זני <lb/>בנך&#1431;
-               ל&#1431;פ&#1431;ק&#1431;</p>
+            <p><lb/><writing style="square_script">לפרט למען ת&#1431;ספ&#1431;ר ב&#1431;א&#1431;זני
+                  <lb/>בנך&#1431; <choice>
+                     <abbr>ל&#1431;פ&#1431;ק&#1431;</abbr>
+                     <expan>לפרט קטן</expan>
+                  </choice></writing></p>
             <p><lb/><unclear reason="illegible">זא</unclear>ת לזכרון אתי מאת בובי מורי <rs>חיים
                   האמיל</rs>
                <lb/>
