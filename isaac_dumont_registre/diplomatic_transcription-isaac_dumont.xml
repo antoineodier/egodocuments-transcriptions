@@ -39,7 +39,7 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <settlement><rs type="place" ref="#dublin">Dublin</rs></settlement>
+                  <settlement><rs type="place" ref="#dublin">Dublin</rs><rs type="country" ref="#ireland">Ireland</rs></settlement>
                   <repository >Royal Irish Academy</repository>
                   <idno type="library_classification_mark">12 N 17</idno>
                   <altIdentifier type="library_website_catalogue">              

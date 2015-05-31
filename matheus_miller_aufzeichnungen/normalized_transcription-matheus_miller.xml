@@ -36,7 +36,7 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <settlement><rs type="place" ref="#augsburg">Augsburg</rs></settlement>
+                  <settlement><rs type="place" ref="#augsburg">Augsburg</rs><rs type="country" ref="#germany">Germany</rs></settlement>
                   <repository >Stadtarchiv</repository>
                   <idno type="library_classification_mark">EWA 59</idno>
                   <altIdentifier type="library_website_catalogue">
