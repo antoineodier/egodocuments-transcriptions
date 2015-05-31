@@ -150,21 +150,13 @@
   <!-- style="border-bottom: 5px dotted black; cursor: help;" -->
 
   <xsl:template match="tei:pb">
-    <br/>
-    <br/>
-    <br/>
-    <hr/>
-      <div style="font: 40px arial, sans-serif; color: #D0D0D0; text-align: left;">
+        <br/>
         <i>
           <b>
             <xsl:text>Page range: </xsl:text>
             <xsl:value-of select="@n"/>
           </b>
         </i>
-      </div>
-
-    <br/>
-    <br/>
   </xsl:template>
 
 </xsl:stylesheet>
