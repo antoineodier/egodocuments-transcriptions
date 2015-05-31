@@ -107,8 +107,16 @@
    <text>
       <body>
          <div type="volume">
-            <pb n="unpaginated"/>
-            <p>[To be transcribed]</p> 
+            <pb n="1r"/>
+            <p>[To be transcribed]</p>
+            <pb n="1v"/>
+            <p>[To be transcribed]</p>
+            <pb n="2r"/>
+            <p>[To be transcribed]</p>
+            <pb n="2v"/>
+            <p>[To be transcribed]</p>
+            <pb n="3r"/>
+            <p>[To be transcribed]</p>
          </div>
       </body>
    </text>
