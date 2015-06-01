@@ -26,6 +26,10 @@
     <br/>
   </xsl:template>
 
+  <xsl:template match="tei:milestone[@style='horizontal_line']">
+    <hr/>
+  </xsl:template>
+
   <xsl:template match="tei:add">
     <i>
       <text>
