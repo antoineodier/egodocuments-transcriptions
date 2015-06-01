@@ -44,7 +44,7 @@
 
   <xsl:template match="tei:add">
     <i>
-      <text>
+      <text style="color: grey">
         <xsl:apply-templates/>
       </text>
     </i>
