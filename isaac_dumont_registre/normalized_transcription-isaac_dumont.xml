@@ -111,11 +111,198 @@
       <body>
          <div type="volume">
             <pb n="1"/>
-             <p>[To be transcribed]</p>
+            <div type="section">
+               <p>
+                  <lb/>d'Yvetot porte d'asur a la Bande dor a deux Cotices de mesme
+                  <lb/>au lambel de gueulles; seigneur de Bostaquet et espoux de Iehanne
+                  <lb/>de Saene, porte l'escu gironne d'azeur et d'argent de huict
+                  <lb/>pieces
+                  <lb/>Robert d'abin porte d'asur a trois Caveaux dor
+                  <lb/>Dumont De Bostaquet porte de gueules a trois 
+                  <lb/>de Lapin arrachees d'argent deux en chef et une en 
+                  <lb/>pointe
+                  <lb/>De La Vote porte de Geulles a trois Besans d'or au
+                  <lb/>Cheuuron Brisé de mesme
+                  <lb/>De Manneuille porte de Sable a L'aigle Esployée
+                  <lb/>D'argent
+                  <lb/>De Frecquele porte d'asur a trois maincts
+                  <lb/>D'argent deux en chef et vne en pointe
+                  <lb/>DeRemon porte de Sable au Lion ranpant
+                  <lb/>dor aux estoiles sans nombre de mesme
+                  <lb/>De La Haye porte de gueules a trois Coquilles
+                  <lb/>d'argent deux en chef et une en pointe
+                  <lb/>De La Riue porte d'asur au liion d'argent
+                  <lb/>sortant des ondes de mesme
+                  <lb/>Le Caussois porte de gueules a trois houx
+                  <lb/>de Sinople au cheuron Brisé dargent
+                  <lb/>De Brossart porte d'azur a deux Besans
+                  <lb/>dor en chef a La molette d'esperon de mesme
+                  <lb/>en pointe au cheuron Brisé dor au milieu
+                  <lb/>
+               </p>
+               <milestone unit="section" style="horizontal_line"/>
+            </div>
+            <div type="section">
+               <head type="section" rend="centered">
+                  <lb/>Noms Des officiers quy <add place="margin_right">ont passé en</add>
+                  <lb/><add place="margin_left"><unclear reason="illegible">Ang</unclear>leterre Et</add> Deuest estre Incorporés dans Les dragons
+                  <lb/>quand <choice><abbr>S A R</abbr><expan>Son Altesse Royale</expan></choice> monseigneur Le
+                  <lb/>Prince d'orange a passé
+                  <lb/>en angleterre
+               </head>
+               <cb type="simple" n="1"/>
+               <cb type="curly_brace" n="1"/>
+               <p rend="curly_brace">
+                  <list type="simple">
+                     <head>Colonel</head>
+                     <item>Petit</item>
+                     <milestone unit="section" style="horizontal_line"/>
+                  </list>
+                  <list type="simple">
+                     <head>Capitaines</head>
+                     <item>Des moulins</item>
+                     <item>Petit</item>
+                     <item>maricourt</item>
+                     <item>D'escury</item>
+                     <item>montroy</item>
+                     <item>neufuille</item>
+                     <item>vesansay</item>
+                     <item>montaut</item>
+                     <item>Bernaste</item>
+                     <milestone unit="section" style="horizontal_line"/>
+                  </list>
+               </p>
+               <cb type="curly_brace" n="2"/>
+               <p>
+                  <lb/>
+                  <lb/>
+                  <lb/>
+                  <lb/>
+                  <lb/>pour Les
+                  <lb/>BLeus
+               </p>
+               <cb type="curly_brace" n="1"/>
+               <p rend="curly_brace">
+                  <list type="simple">
+                     <head>Colonel</head>
+                     <item>Louuigny</item>
+                     <milestone unit="section" style="horizontal_line"/>
+                  </list>
+                  <list type="simple">
+                     <head rend="underlined">Capitaines</head>
+                     <item>Bostaquet</item>
+                     <item>La grangerie</item>
+                     <item>Passy</item>
+                     <item>D'olon</item>
+                     <item>Viuens</item>
+                     <item>Varenques</item>
+                     <item>La guiminiere</item>
+                  </list>
+               </p>
+               <cb type="curly_brace" n="2"/>
+               <p>
+                  <lb/>
+                  <lb/>
+                  <lb/>
+                  <lb/>
+                  <lb/>
+                  <lb/>pour Les
+                  <lb/>rouges
+               </p>
+               <cb type="simple" n="2"/>
+               <cb type="curly_brace" n="1"/>
+               <p rend="curly_brace">
+                  <list type="simple">
+                     <head>Lieutenans</head>
+                     <item>Quirault</item>
+                     <item>moncornet</item>
+                     <item>Tournier</item>
+                     <item>Le BLanc</item>
+                     <item>D'ours</item>
+                     <item>Fontanes</item>
+                     <item>Bernard</item>
+                     <item>Senoche</item>
+                     <item>Seuue</item>
+                     <item>Rumigny</item>
+                     <milestone unit="section" style="horizontal_line"/>
+                  </list>
+               </p>
+               <cb type="curly_brace" n="2"/>
+               <p>
+                  <lb/>
+                  <lb/>
+                  <lb/>
+                  <lb/>
+                  <lb/>
+                  <lb/>pour Les
+                  <lb/><del>Rouges</del>
+                  <lb/>bLeus
+               </p>
+               <cb type="curly_brace" n="1"/>
+               <p rend="curly_brace">
+                  <list type="simple">
+                     <head>Lieutenants</head>
+                     <item>Boismolet</item>
+                     <item>mailleray</item>
+                     <item>CLairuaux</item>
+                     <item>Vilmisson</item>
+                     <item>La Caterie</item>
+                     <item>d'ornan</item>
+                     <item>RocheBrune</item>
+                  </list>
+               </p>
+               <cb type="curly_brace" n="2"/>
+               <p>
+                  <lb/>
+                  <lb/>
+                  <lb/>
+                  <lb/>
+                  <lb/>
+                  <lb/>pour Les
+                  <lb/>rouges
+               </p>
+               <cb type="simple" n="3"/>
+               <cb type="curly_brace" n="1"/>
+               <p rend="curly_brace">
+                  <list type="simple">
+                     <head rend="label">Pour Les BLeus</head>
+                     <head>Cornettes</head>
+                     <item>marteL</item>
+                     <item>Du puy</item>
+                     <item>La rouuiere</item>
+                     <item>De Lamy</item>
+                     <item>Lassaut</item>
+                     <item>SaLomon</item>
+                     <item>La rouuiere</item>
+                     <item>La Bastide</item>
+                     <item>De Bojeu</item>
+                     <item>De gaume</item>
+                     <item>constantin</item>
+                     <milestone unit="section" style="horizontal_line"/>
+                  </list>
+               </p>
+               <cb type="curly_brace" n="1"/>
+               <p rend="curly_brace">
+                  <list type="simple">
+                     <head rend="label">Pour Les rouges</head>
+                     <head>Cornettes</head>
+                     <item>VasseLot</item>
+                     <item>maille, Laisne</item>
+                     <item>maille Le Cadet</item>
+                     <item>D'olon fils</item>
+                     <item>Du chesoy</item>
+                     <item>Montpinson</item>
+                     <item>La rouuiere</item>
+                     <item>La Bastide</item>
+                     <item>Picard</item>
+                     <item rend="label"></item>
+                  </list>
+               </p>
+            </div>
             <pb n="2"/>
-               <p>[To be transcribed]</p>
+
             <pb n="3"/>
-               <p>[To be transcribed]</p>
+
          </div>
       </body>
   </text>
