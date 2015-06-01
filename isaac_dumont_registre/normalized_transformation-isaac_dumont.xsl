@@ -44,7 +44,10 @@
 
   <xsl:template match="tei:add">
     <i>
-      <text style="color: grey">
+      <text>
+        <xsl:attribute name="class">
+          "add-transcription"
+        </xsl:attribute>
         <xsl:apply-templates/>
       </text>
     </i>
