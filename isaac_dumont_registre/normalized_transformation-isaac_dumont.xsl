@@ -46,7 +46,7 @@
     <i>
       <text>
         <xsl:attribute name="class">
-          "add-transcription"
+          <xsl:text>add-transcription</xsl:text>
         </xsl:attribute>
         <xsl:apply-templates/>
       </text>
