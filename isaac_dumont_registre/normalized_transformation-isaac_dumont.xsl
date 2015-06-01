@@ -30,6 +30,29 @@
     <hr/>
   </xsl:template>
 
+  <xsl:template match="tei:unclear">
+    <xsl:text>[</xsl:text>
+      <xsl:apply-templates/>
+    <xsl:text>]</xsl:text>
+  </xsl:template>
+
+  <xsl:template match="tei:add">
+    <i>
+      <text>
+        <xsl:apply-templates/>
+      </text>
+    </i>
+  </xsl:template>
+
+  <xsl:template match="tei:choice">
+    <a href="#">
+      <xsl:attribute name="title">
+        <xsl:value-of select="tei:expan"/>
+      </xsl:attribute>
+      <xsl:apply-templates select="tei:abbr"/>
+    </a>
+  </xsl:template>
+
   <xsl:template match="tei:add">
     <i>
       <text>
