@@ -34,6 +34,21 @@
     </i>
   </xsl:template>
 
+  <xsl:template match="tei:choice">
+    <a href="#">
+      <xsl:attribute name="title">
+        <xsl:value-of select="tei:expan"/>
+      </xsl:attribute>
+      <xsl:apply-templates select="tei:abbr"/>
+    </a>
+  </xsl:template>
+
+  <xsl:template match="tei:c[@rend='super']">
+    <sup>
+      <xsl:apply-templates/>
+    </sup>
+  </xsl:template>
+
   <xsl:template match="tei:pb">
     <br/>
     <i>

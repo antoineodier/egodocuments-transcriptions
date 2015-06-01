@@ -30,6 +30,12 @@
     <hr/>
   </xsl:template>
 
+  <xsl:template match="tei:c[@rend='super']">
+    <sup>
+      <xsl:apply-templates/>
+    </sup>
+  </xsl:template>
+
   <xsl:template match="tei:unclear">
     <xsl:text>[</xsl:text>
       <xsl:apply-templates/>
