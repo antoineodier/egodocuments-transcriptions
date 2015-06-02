@@ -52,6 +52,21 @@
     </i>
   </xsl:template>
 
+  <xsl:template match="tei:subst">
+    <text id="del-transcription">
+      <xsl:apply-templates select="tei:del"/>
+    </text>
+    <text class="add-transcription">
+        <xsl:apply-templates select="tei:add"/>
+    </text>
+  </xsl:template>
+
+  <xsl:template match="tei:del">
+        <text id="del-transcription">
+            <xsl:apply-templates/>
+        </text>
+    </xsl:template>
+
   <xsl:template match="tei:cb">
     <xsl:if test="@n='1'">
         <div class="cb_left">
