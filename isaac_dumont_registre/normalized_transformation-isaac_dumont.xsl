@@ -2,7 +2,7 @@
 
 <xsl:stylesheet
   xmlns:tei="http://www.tei-c.org/ns/1.0"
-  xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+  xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0"
   >
 
   <xsl:output
@@ -44,13 +44,23 @@
 
   <xsl:template match="tei:add">
     <i>
-      <text>
-        <xsl:attribute name="class">
-          <xsl:text>add-transcription</xsl:text>
-        </xsl:attribute>
+      <text class="add-transcription">
         <xsl:apply-templates/>
       </text>
     </i>
+  </xsl:template>
+
+  <xsl:template match="tei:cb">
+    <xsl:if test="@n='1'">
+        <div class="cb_left">
+            <xsl:apply-templates select="following-sibling::tei:p[1]" mode="nachCb"/>
+        </div>
+    </xsl:if>
+    <xsl:if test="@n='2'">
+        <div class="cb_right">
+            <xsl:apply-templates select="following-sibling::tei:p[1]" mode="nachCb"/>
+        </div>
+    </xsl:if>
   </xsl:template>
 
   <xsl:template match="tei:choice">
@@ -60,14 +70,6 @@
       </xsl:attribute>
       <xsl:apply-templates select="tei:abbr"/>
     </a>
-  </xsl:template>
-
-  <xsl:template match="tei:add">
-    <i>
-      <text>
-        <xsl:apply-templates/>
-      </text>
-    </i>
   </xsl:template>
 
   <xsl:template match="tei:pb">
