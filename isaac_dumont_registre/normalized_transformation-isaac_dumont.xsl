@@ -51,12 +51,13 @@
   </xsl:template>
 
   <xsl:template match="tei:subst">
-    <text id="del-transcription">
+    <b><text id="del-transcription">
       <xsl:apply-templates select="tei:del"/>
     </text>
     <text class="add-transcription">
         <xsl:apply-templates select="tei:add"/>
     </text>
+    </b>
   </xsl:template>
 
   <xsl:template match="tei:del">
