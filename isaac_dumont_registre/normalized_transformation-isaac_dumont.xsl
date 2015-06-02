@@ -27,7 +27,7 @@
   </xsl:template>
 
   <xsl:template match="tei:milestone[@style='horizontal_line']">
-    <hr/>
+    <hr class="horizontal_line"/>
   </xsl:template>
 
   <xsl:template match="tei:c[@rend='super']">
@@ -51,12 +51,13 @@
   </xsl:template>
 
   <xsl:template match="tei:subst">
-    <b><text id="del-transcription">
-      <xsl:apply-templates select="tei:del"/>
-    </text>
-    <text class="add-transcription">
+    <b>
+      <text class="del-transcription">
+        <xsl:apply-templates select="tei:del"/>
+      </text>
+      <text class="add-transcription">
         <xsl:apply-templates select="tei:add"/>
-    </text>
+      </text>
     </b>
   </xsl:template>
 
