@@ -45,9 +45,7 @@
   <xsl:template match="tei:add">
     <i>
       <text class="add-transcription">
-        <xsl:text><</xsl:text>
         <xsl:apply-templates/>
-        <xsl:text>></xsl:text>
       </text>
     </i>
   </xsl:template>
@@ -62,7 +60,7 @@
   </xsl:template>
 
   <xsl:template match="tei:del">
-        <text id="del-transcription">
+        <text class="del-transcription">
             <xsl:apply-templates/>
         </text>
     </xsl:template>
