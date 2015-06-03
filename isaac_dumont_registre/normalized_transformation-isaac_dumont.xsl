@@ -30,6 +30,15 @@
     <hr class="horizontal_line"/>
   </xsl:template>
 
+  <xsl:template match="tei:head[@rend='centered']">
+    <b>
+      <text class="head-centered">
+        <xsl:apply-templates/>
+      </text>
+    </b>
+    <br/>
+  </xsl:template>
+
   <xsl:template match="tei:c[@rend='super']">
     <sup>
       <xsl:apply-templates/>
