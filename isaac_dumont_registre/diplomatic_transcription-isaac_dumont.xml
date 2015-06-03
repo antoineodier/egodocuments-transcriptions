@@ -155,7 +155,7 @@
                            <list type="simple">
                               <head>Colonel</head>
                               <item>Petit</item>
-                              <milestone unit="section" style="horizontal_line"/>
+                              <milestone unit="section" style="short_horizontal_line"/>
                            </list>
                            <list type="simple">
                               <head>Capitaines</head>
@@ -168,7 +168,7 @@
                               <item>vesansay</item>
                               <item>montaut</item>
                               <item>Bernaste</item>
-                              <milestone unit="section" style="horizontal_line"/>
+                              <milestone unit="section" style="short_horizontal_line"/>
                            </list>
                         </p>
                      <cb type="curly_brace" n="2"/>
@@ -185,7 +185,7 @@
                            <list type="simple">
                               <head>Colonel</head>
                               <item>Louuigny</item>
-                              <milestone unit="section" style="horizontal_line"/>
+                              <milestone unit="section" style="short_horizontal_line"/>
                            </list>
                            <list type="simple">
                               <head rend="underlined">Capitaines</head>
@@ -223,7 +223,7 @@
                            <item>Senoche</item>
                            <item>Seuue</item>
                            <item>Rumigny</item>
-                           <milestone unit="section" style="horizontal_line"/>
+                           <milestone unit="section" style="short_horizontal_line"/>
                         </list>
                      </p>
                   <cb type="curly_brace" n="2"/>
@@ -277,7 +277,7 @@
                         <item>De Bojeu</item>
                         <item>De gaume</item>
                         <item>constantin</item>
-                        <milestone unit="section" style="horizontal_line"/>
+                        <milestone unit="section" style="short_horizontal_line"/>
                      </list>
                   </p>
                   <cb type="curly_brace" n="1"/>

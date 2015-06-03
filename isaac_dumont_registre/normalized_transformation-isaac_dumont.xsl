@@ -2,7 +2,7 @@
 
 <xsl:stylesheet
   xmlns:tei="http://www.tei-c.org/ns/1.0"
-  xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0"
+  xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
   >
 
   <xsl:output
@@ -14,15 +14,7 @@
    <xsl:template match="/">
      <html>
       <head>
-        <meta charset="utf-8"/>
-        <link rel="stylesheet" href="http://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css"/>
-  <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
-  <script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
-        <script>
-          $(function() {
-    $( document ).tooltip();
-  });
-        </script>
+         <!-- Registre - Jean Maillefer -->
       </head>
       <body>
         <xsl:apply-templates/>
@@ -84,6 +76,20 @@
             <xsl:apply-templates/>
         </text>
     </xsl:template>
+
+
+  <xsl:template match="tei:list[@type='simple']">
+    <i>
+      <text>
+        <xsl:apply-templates select="tei:head"/>
+        <br/>
+      </text>
+    </i>
+    <text>
+        <xsl:apply-templates select="tei:item"/>
+        <br/>
+    </text>
+  </xsl:template>
 
   <xsl:template match="tei:cb">
     <xsl:if test="@n='1'">
