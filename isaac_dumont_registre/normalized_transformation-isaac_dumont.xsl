@@ -32,11 +32,12 @@
 
   <xsl:template match="tei:head[@rend='centered']">
     <b>
-      <text class="head-centered">
+      <text class="head-centered text-center">
         <xsl:apply-templates/>
+        <br/>
+        <br/>
       </text>
     </b>
-    <br/>
   </xsl:template>
 
   <xsl:template match="tei:c[@rend='super']">
