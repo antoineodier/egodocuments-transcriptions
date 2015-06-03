@@ -2,7 +2,7 @@
 
 <xsl:stylesheet
   xmlns:tei="http://www.tei-c.org/ns/1.0"
-  xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+  xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0"
   >
 
   <xsl:output
@@ -77,21 +77,23 @@
         </text>
     </xsl:template>
 
+    <xsl:template match="tei:list[@type='simple']/tei:head">
+        <i>
+          <text>
+            <br/>
+            <xsl:apply-templates/>
+          </text>
+        </i>
+    </xsl:template>
 
-  <xsl:template match="tei:list[@type='simple']">
-    <i>
-      <text>
-        <xsl:apply-templates select="tei:head"/>
-        <br/>
-      </text>
-    </i>
-    <text>
-        <xsl:apply-templates select="tei:item"/>
-        <br/>
-    </text>
-  </xsl:template>
+    <xsl:template match="tei:list/tei:item">
+          <text>
+            <br/>
+            <xsl:apply-templates/>
+          </text>
+    </xsl:template>
 
-  <xsl:template match="tei:cb">
+<!--   <xsl:template match="tei:cb">
     <xsl:if test="@n='1'">
         <div class="cb_left">
             <xsl:apply-templates select="following-sibling::tei:p[1]" mode="nachCb"/>
@@ -102,7 +104,7 @@
             <xsl:apply-templates select="following-sibling::tei:p[1]" mode="nachCb"/>
         </div>
     </xsl:if>
-  </xsl:template>
+  </xsl:template> -->
 
   <xsl:template match="tei:choice">
     <a href="#">
