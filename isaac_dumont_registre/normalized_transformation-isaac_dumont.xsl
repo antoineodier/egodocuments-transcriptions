@@ -14,7 +14,15 @@
    <xsl:template match="/">
      <html>
       <head>
-        <!-- Registre - Jean Maillefer -->
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" href="http://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css"/>
+  <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+  <script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+        <script>
+          $(function() {
+    $( document ).tooltip();
+  });
+        </script>
       </head>
       <body>
         <xsl:apply-templates/>
