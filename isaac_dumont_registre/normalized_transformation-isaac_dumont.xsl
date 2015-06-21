@@ -91,13 +91,12 @@
 
 <!-- Colones -->
   <xsl:template match="tei:div[tei:cb]">
-    <table>
       <xsl:for-each select="tei:cb">
         <xsl:variable name="n" select="@n" />
-            <tr>
+            <div class="columns-transcription">
               <xsl:apply-templates
               select="following-sibling::node()[preceding-sibling::tei:cb[1][@n=$n]]"/>
-            </tr>
+            </div>
       </xsl:for-each>
     </table>
   </xsl:template>
