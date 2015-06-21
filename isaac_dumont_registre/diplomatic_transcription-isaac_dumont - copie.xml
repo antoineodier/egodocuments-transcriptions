@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+  <text>
+      <body>
+         <div type="volume">
+            <pb n="1"/>
+               <div type="section">
+                  <p>
+                  <lb/>d'Yvetot porte d'asur a la Bande dor a deux Cotices de mesme
+                  <lb/>au lambel de gueulles; seigneur de Bostaquet et espoux de Iehanne
+                  <lb/>de Saene, porte l'escu gironne d'azeur et d'argent de huict
+                  <lb/>pieces
+                  <lb/>Robert d'abin porte d'asur a trois Caveaux dor
+                  <lb/>Dumont De Bostaquet porte de gueules a trois testes
+                  <lb/>de Lapin arrachees d'argent deux en chef et vne en 
+                  <lb/>pointe
+                  <lb/>De La Vote porte de Geulles a trois Besans d'or au
+                  <lb/>Cheuuron Brisé de mesme
+                  <lb/>De Manneuille porte de Sable a L'aigle Esployée
+                  <lb/>D'argent
+                  <lb/>De Frecqueles porte d'asur a trois mains
+                  <lb/>D'argent deux en chef et vne en pointe
+                  <lb/>De Remon porte de Sable au Lion ranpant
+                  <lb/>dor aux estoiles sans nombre de mesme
+                  <lb/>De La Haye porte de gueules a trois Coquilles
+                  <lb/>d'argent deux en chef et vne en pointe
+                  <lb/>De la Riue porte d'asur au lion d'argent
+                  <lb/>sortant des ondes de mesme
+                  <lb/>Le Caussois porte de gueules a trois Houx
+                  <lb/>de Sinople au cheuron Brisé dargent
+                  <lb/>De Brossa<subst><del>s</del><add place="inline">r</add></subst>t porte d'azur a deux Besans
+                  <lb/>dor en chef a La molette d'esperon de mesme
+                  <lb/>en pointe au cheuron Brisé dor au milieu
+                  <milestone unit="section" style="horizontal_line"/>
+                  </p>
+               </div>
+               <div type="section">
+                  <head type="section" rend="centered">
+                     <lb/>Noms Des officiers quy <add place="margin_right">ont passé en</add>
+                     <lb/><add place="margin_left"><unclear reason="illegible">Ang</unclear>leterre Et</add> Deuest estre Incorporés dans Les dragons
+                     <lb/>quand <choice><abbr>S A R</abbr><expan>Son Altesse Royale</expan></choice> monseigneur Le
+                     <lb/>Prince d'orange a passé
+                     <lb/>en angleterre
+                  </head>
+                     <div>
+                        <cb n="1"/>
+                        <p rend="curly_brace">
+                           <list type="simple">
+                              <head>Colonel</head>
+                              <item>Petit</item>
+                              <milestone unit="section" style="short_horizontal_line"/>
+                           </list>
+                           <list type="simple">
+                              <head>Capitaines</head>
+                              <item>Des moulins</item>
+                              <item>Petit</item>
+                              <item>maricourt</item>
+                              <item>D'escury</item>
+                              <item>montroy</item>
+                              <item>neufuille</item>
+                              <item>vesansay</item>
+                              <item>montaut</item>
+                              <item>Bernaste</item>
+                              <milestone unit="section" style="short_horizontal_line"/>
+                           </list>
+                        </p>
+                     <cb n="2"/>
+                        <p>
+                           <lb/>
+                           <lb/>
+                           <lb/>
+                           <lb/>
+                           <lb/>pour Les
+                           <lb/>BLeus
+                        </p>
+                     <cb n="3"/>
+                        <p rend="curly_brace">
+                           <list type="simple">
+                              <head>Lieutenans</head>
+                              <item>Quirault</item>
+                              <item>moncornet</item>
+                              <item>Tournier</item>
+                              <item>Le BLanc</item>
+                              <item>D'ours</item>
+                              <item>Fontanes</item>
+                              <item>Bernard</item>
+                              <item>Senoche</item>
+                              <item>Seuue</item>
+                              <item>Rumigny</item>
+                              <milestone unit="section" style="short_horizontal_line"/>
+                           </list>
+                        </p>
+                     <cb n="4"/>
+                        <p>
+                           <lb/>
+                           <lb/>
+                           <lb/>
+                           <lb/>
+                           <lb/>
+                           <lb/>pour Les
+                           <lb/><del>Rouges</del>
+                           <lb/>bLeus
+                        </p>
+                     <cb n="5"/>
+                        <p rend="curly_brace">
+                        <list type="simple">
+                        <head rend="label">Pour Les BLeus</head>
+                           <head>Cornettes</head>
+                           <item>marteL</item>
+                           <item>Du puy</item>
+                           <item>La rouuiere</item>
+                           <item>De Lamy</item>
+                           <item>Lassaut</item>
+                           <item>SaLomon</item>
+                           <item>La rouuiere</item>
+                           <item>La Bastide</item>
+                           <item>De Bojeu</item>
+                           <item>De gaume</item>
+                           <item>constantin</item>
+                           <milestone unit="section" style="short_horizontal_line"/>
+                        </list>
+                     </p>
+                     </div>
+                     <div>
+                     <cb n="1"/>
+                        <p rend="curly_brace">
+                           <list type="simple">
+                              <head>Colonel</head>
+                              <item>Louuigny</item>
+                              <milestone unit="section" style="short_horizontal_line"/>
+                           </list>
+                           <list type="simple">
+                              <head rend="underlined">Capitaines</head>
+                              <item>Bostaquet</item>
+                              <item>La grangerie</item>
+                              <item>Passy</item>
+                              <item>D'olon</item>
+                              <item>Viuens</item>
+                              <item>Varenques</item>
+                              <item>La guiminiere</item>
+                           </list>
+                        </p>
+                     <cb n="2"/>
+                        <p>
+                           <lb/>
+                           <lb/>
+                           <lb/>
+                           <lb/>
+                           <lb/>
+                           <lb/>pour Les
+                           <lb/>rouges
+                        </p>         
+                     <cb n="3"/>
+                     <p rend="curly_brace">
+                        <list type="simple">
+                           <head>Lieutenants</head>
+                           <item>Boismolet</item>
+                           <item>mailleray</item>
+                           <item>CLairuaux</item>
+                           <item>Vilmisson</item>
+                           <item>La Caterie</item>
+                           <item>d'ornan</item>
+                           <item>RocheBrune</item>
+                        </list>
+                     </p>
+                     <cb n="4"/>
+                     <p>
+                        <lb/>
+                        <lb/>
+                        <lb/>
+                        <lb/>
+                        <lb/>
+                        <lb/>pour Les
+                        <lb/>rouges
+                     </p>
+                     <cb n="5"/>
+                     <p rend="curly_brace">
+                        <list type="simple">
+                           <head rend="label">Pour Les rouges</head>
+                           <head>Cornettes</head>
+                           <item>VasseLot</item>
+                           <item>maille, Laisne</item>
+                           <item>maille Le Cadet</item>
+                           <item>D'olon fils</item>
+                           <item>Du chesoy</item>
+                           <item>Montpinson</item>
+                           <item>La rouuiere</item>
+                           <item>La Bastide</item>
+                           <item>Picard</item>
+                           <item rend="label"></item>
+                        </list>
+                     </p>
+                  </div>
+               </div>
+            <pb n="2"/>
+               <div type="section">
+                  <head>
+                     <lb/>Copie de REqueste presentée au prince conseil
+                     <lb/>par <choice><abbr>mons<c rend="super">r</c></abbr><expan>monseigneur</expan></choice> de Ciuille pour euoquer du parLement d<subst><del>u</del><add place="inline">e</add></subst> paris
+                     <lb/>Les enfans de messire pierre Remond premier president au <del>par</del>
+                     <lb/>parLement de rouen auec enonciation de Leur parentelle
+                  </head>
+                  <head rend="centered">
+                     <lb/>Au Roy et a messieurs de
+                     <lb/>son conseil
+                     <lb/>Sire
+                  </head>
+                  <p>
+                     <lb/>francois de Ciuille commissere ordinere des guerres 
+                     <lb/>en la generalité de Rouen, vous remontre tres humbLemen<unclear reason="illegible">t</unclear>
+                     <lb/>Lue de deux sentences données a son profit a L'encontre
+                     <lb/>de Georges Remon et ses consors heritiers de feu dame
+                     <lb/>magdeLaine Remon <gap reason="illegible"></gap> sa fame par Le Baill<unclear reason="illegible"></unclear>
+                     <lb/>De Rouen ou son Lieutenant Le dit Remon et ses consors
+                     <lb/>se seroient portés pour appellans quy sessortent a vostre
+                     <lb/>Cour de parLement de Rouen mais pour trauailler Le dit
+                     <lb/>SuupLiant et empescher  Le cours de La justice <add place="supralinear">par</add> des fuites
+                     <lb/>ordineres ont presente recqueste en vostre conseil par Laqu<unclear reason="illegible">elle</unclear>
+                     <lb/>Jls ont exposé qu'Jls ne pouuest esperer Iustice au dit <choice><abbr>parLem<c rend="super">t</c></abbr><expan>parLement</expan></choice>
+                     <lb/>a cause des parentelles et alliances qu'Ils disest que Le dit <choice><abbr>supL<unclear reason="illegible">t</unclear></abbr><expan>supLiant</expan></choice>
+                     <lb/>auet, sur Laquelle Il auet esté ordonné qu'Ils ferest In forme<unclear reason="illegible">r</unclear>
+                     <lb/>d'Icelles parties presentes ou appellées et ayant Le dit suppLiant<del>e</del>
+                     <lb/>assigné par deuant Le commissere a ce depute <add place="supralinear">dit</add> qu'Il consentet <choice><abbr>q&#xA76B;</abbr><expan>que</expan></choice>
+                     <lb/>pour esuiter a procés Le dit procés fut renuoyé en tel cour
+                     <lb/>souueraine de ce royaume qu'Il pLairet a vostre majesté ordonne<unclear reason="illegible">r</unclear>
+                     <lb/>Excepté Le parLement de paris pour LEs grandes parentés et
+                     <lb/>alliances que Le dit Remon et ses consors y ont Lequel commisser<unclear reason="illegible">e</unclear>
+                     <lb/>apres La declaration du diit supLiant auret renuoyé Les parties a vo<unclear reason="illegible">stre</unclear>
+                     <lb/>conseiL pour Les pouruoir ainsy que de rison, et combien que Le d<unclear reason="illegible">it</unclear>
+                     <lb/>Remon et ses consors ne puissent d'énier les dites parentés
+                     <lb/>Neanmoins ou Ils voudrest faire quelque denegation Le <choice><abbr>supL.</abbr><expan>supLiant</expan></choice>
+                     <lb/>met en faict et offre verifier qu'Ils ont nombre de parentés et 
+                     <lb/>pLus que suffisans pour euoquer et renuoyer Le dit procede
+                     <lb/>ailleurs ou Il pLaira a vostre majeste ordonner
+                  </p>
+                  <p>
+                     <lb rend="centered"/>Entre autres
+                  </p>
+                  <p>
+                     <lb/><choice><abbr>Mons<c rend="super">r</c></abbr><expan>Monseigneur</expan></choice> Sanguin conseiller eu La cour de parLement de
+                     <lb/>Paris seigneur de Liury est cousin remué de  germain dud<unclear reason="illegible">it</unclear>
+                     <lb/>Remon geffroy Remon sieur de cussy et des enfans de feu
+                     <lb/><choice><abbr>mons<c rend="super">r</c></abbr><expan>monseigneur</expan></choice> maistre francois remon seigneur de courcelles <choice><abbr>con<unclear>s<c rend="super">r</c></unclear></abbr><expan>conseiller</expan></choice>
+                     <lb/>au dit parLement tous heritiers de La fame du dit supLian<unclear reason="illegible">t</unclear>
+                     <lb/>et quy tous ont Interest au proces
+                  </p>
+                  <p>
+                     <lb/>monsieur <choice><abbr>m<c rend="super">re</c></abbr><expan>maistre</expan></choice> Denis du mesniL aussy conseiller en La dite
+                     <lb/>Cour est beaufrere du dit sanguin et cousin en pareiL degré
+                     <lb/>a cause de sa fame
+                  </p>
+                  <p>
+                     <lb/><choice><abbr>mons<c rend="super">r</c></abbr><expan>monseigneur</expan></choice> <choice><abbr>m<c rend="super">re</c></abbr><expan>maistre</expan></choice> anthoine LoiseL <choice><abbr>cons<c rend="super">r</c></abbr><expan>conseiller</expan></choice> en La dite cour est cousin
+                     <lb/>en pareil degré a cause de sa mere
+                  </p>
+                  <p>
+                     <lb/><choice><abbr>mons<c rend="super">r</c></abbr><expan>monseigneur</expan></choice> <choice><abbr>m<c rend="super">re</c></abbr><expan>maistre</expan></choice> possidre Bouin conseiller en La grande chambr<unclear reason="illegible">e</unclear>
+                     <lb/>aussy cousin remue de germain
+                  </p>
+                  <p>
+                     <lb/>monsieur de moussy conseiller en La dite cour est cousin en
+                     <lb/>pareil degré
+                  </p>
+                  <p>
+                     <lb/>monsieur de mantigny conseiller du Roy et maistre des
+                     <lb/>requestes en son hosteL est aussy remue de germain des dites
+                     <lb/>Remon
+                  </p>
+            <pb n="3"/>
+               <p>[To be transcribed]</p>
+               </div>
+         </div>
+      </body>
+  </text>
+</TEI>

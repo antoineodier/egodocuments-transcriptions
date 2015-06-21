@@ -141,92 +141,63 @@
                   <milestone unit="section" style="horizontal_line"/>
                   </p>
                </div>
-               <div type="section">
-                  <head type="section" rend="centered">
-                     <lb/>Noms Des officiers quy <add place="margin_right">ont passé en</add>
-                     <lb/><add place="margin_left"><unclear reason="illegible">Ang</unclear>leterre Et</add> Deuest estre Incorporés dans Les dragons
-                     <lb/>quand <choice><abbr>S A R</abbr><expan>Son Altesse Royale</expan></choice> monseigneur Le
-                     <lb/>Prince d'orange a passé
-                     <lb/>en angleterre
-                  </head>
-                  <cb type="simple" n="1"/>
-                     <cb type="curly_brace" n="1"/>
-                        <p rend="curly_brace">
-                           <list type="simple">
-                              <head>Colonel</head>
-                              <item>Petit</item>
-                              <milestone unit="section" style="short_horizontal_line"/>
-                           </list>
-                           <list type="simple">
-                              <head>Capitaines</head>
-                              <item>Des moulins</item>
-                              <item>Petit</item>
-                              <item>maricourt</item>
-                              <item>D'escury</item>
-                              <item>montroy</item>
-                              <item>neufuille</item>
-                              <item>vesansay</item>
-                              <item>montaut</item>
-                              <item>Bernaste</item>
-                              <milestone unit="section" style="short_horizontal_line"/>
-                           </list>
-                        </p>
-                     <cb type="curly_brace" n="2"/>
-                        <p>
-                           <lb/>
-                           <lb/>
-                           <lb/>
-                           <lb/>
-                           <lb/>pour Les
-                           <lb/>BLeus
-                        </p>
-                     <cb type="curly_brace" n="1"/>
-                        <p rend="curly_brace">
-                           <list type="simple">
-                              <head>Colonel</head>
-                              <item>Louuigny</item>
-                              <milestone unit="section" style="short_horizontal_line"/>
-                           </list>
-                           <list type="simple">
-                              <head rend="underlined">Capitaines</head>
-                              <item>Bostaquet</item>
-                              <item>La grangerie</item>
-                              <item>Passy</item>
-                              <item>D'olon</item>
-                              <item>Viuens</item>
-                              <item>Varenques</item>
-                              <item>La guiminiere</item>
-                           </list>
-                        </p>
-                     <cb type="curly_brace" n="2"/>
-                        <p>
-                           <lb/>
-                           <lb/>
-                           <lb/>
-                           <lb/>
-                           <lb/>
-                           <lb/>pour Les
-                           <lb/>rouges
-                        </p>
-                  <cb type="simple" n="2"/>
-                     <cb type="curly_brace" n="1"/>
-                     <p rend="curly_brace">
-                        <list type="simple">
-                           <head>Lieutenans</head>
-                           <item>Quirault</item>
-                           <item>moncornet</item>
-                           <item>Tournier</item>
-                           <item>Le BLanc</item>
-                           <item>D'ours</item>
-                           <item>Fontanes</item>
-                           <item>Bernard</item>
-                           <item>Senoche</item>
-                           <item>Seuue</item>
-                           <item>Rumigny</item>
-                           <milestone unit="section" style="short_horizontal_line"/>
-                        </list>
-                     </p>
-                  <cb type="curly_brace" n="2"/>
+            <div type="section">
+               <head type="section" rend="centered">
+                  <lb/>Noms Des officiers quy <add place="margin_right">ont passé en</add>
+                  <lb/><add place="margin_left"><unclear reason="illegible">Ang</unclear>leterre Et</add> Deuest estre Incorporés dans Les dragons
+                  <lb/>quand <choice><abbr>S A R</abbr><expan>Son Altesse Royale</expan></choice> monseigneur Le
+                  <lb/>Prince d'orange a passé
+                  <lb/>en angleterre
+               </head>
+               <div>
+                  <cb n="1"/>
+                  <p rend="curly_brace">
+                     <list type="simple">
+                        <head>Colonel</head>
+                        <item>Petit</item>
+                        <milestone unit="section" style="short_horizontal_line"/>
+                     </list>
+                     <list type="simple">
+                        <head>Capitaines</head>
+                        <item>Des moulins</item>
+                        <item>Petit</item>
+                        <item>maricourt</item>
+                        <item>D'escury</item>
+                        <item>montroy</item>
+                        <item>neufuille</item>
+                        <item>vesansay</item>
+                        <item>montaut</item>
+                        <item>Bernaste</item>
+                        <milestone unit="section" style="short_horizontal_line"/>
+                     </list>
+                  </p>
+                  <cb n="2"/>
+                  <p>
+                     <lb/>
+                     <lb/>
+                     <lb/>
+                     <lb/>
+                     <lb/>pour Les
+                     <lb/>BLeus
+                  </p>
+                  <cb n="3"/>
+                  <p rend="curly_brace">
+                     <list type="simple">
+                        <head>Lieutenans</head>
+                        <item>Quirault</item>
+                        <item>moncornet</item>
+                        <item>Tournier</item>
+                        <item>Le BLanc</item>
+                        <item>D'ours</item>
+                        <item>Fontanes</item>
+                        <item>Bernard</item>
+                        <item>Senoche</item>
+                        <item>Seuue</item>
+                        <item>Rumigny</item>
+                        <milestone unit="section" style="short_horizontal_line"/>
+                     </list>
+                  </p>
+                  <cb n="4"/>
                   <p>
                      <lb/>
                      <lb/>
@@ -237,31 +208,7 @@
                      <lb/><del>Rouges</del>
                      <lb/>bLeus
                   </p>
-                  <cb type="curly_brace" n="1"/>
-                  <p rend="curly_brace">
-                     <list type="simple">
-                        <head>Lieutenants</head>
-                        <item>Boismolet</item>
-                        <item>mailleray</item>
-                        <item>CLairuaux</item>
-                        <item>Vilmisson</item>
-                        <item>La Caterie</item>
-                        <item>d'ornan</item>
-                        <item>RocheBrune</item>
-                     </list>
-                  </p>
-                  <cb type="curly_brace" n="2"/>
-                  <p>
-                     <lb/>
-                     <lb/>
-                     <lb/>
-                     <lb/>
-                     <lb/>
-                     <lb/>pour Les
-                     <lb/>rouges
-                  </p>
-               <cb type="simple" n="3"/>
-                  <cb type="curly_brace" n="1"/>
+                  <cb n="5"/>
                   <p rend="curly_brace">
                      <list type="simple">
                         <head rend="label">Pour Les BLeus</head>
@@ -280,7 +227,60 @@
                         <milestone unit="section" style="short_horizontal_line"/>
                      </list>
                   </p>
-                  <cb type="curly_brace" n="1"/>
+               </div>
+               <div>
+                  <cb n="1"/>
+                  <p rend="curly_brace">
+                     <list type="simple">
+                        <head>Colonel</head>
+                        <item>Louuigny</item>
+                        <milestone unit="section" style="short_horizontal_line"/>
+                     </list>
+                     <list type="simple">
+                        <head rend="underlined">Capitaines</head>
+                        <item>Bostaquet</item>
+                        <item>La grangerie</item>
+                        <item>Passy</item>
+                        <item>D'olon</item>
+                        <item>Viuens</item>
+                        <item>Varenques</item>
+                        <item>La guiminiere</item>
+                     </list>
+                  </p>
+                  <cb n="2"/>
+                  <p>
+                     <lb/>
+                     <lb/>
+                     <lb/>
+                     <lb/>
+                     <lb/>
+                     <lb/>pour Les
+                     <lb/>rouges
+                  </p>         
+                  <cb n="3"/>
+                  <p rend="curly_brace">
+                     <list type="simple">
+                        <head>Lieutenants</head>
+                        <item>Boismolet</item>
+                        <item>mailleray</item>
+                        <item>CLairuaux</item>
+                        <item>Vilmisson</item>
+                        <item>La Caterie</item>
+                        <item>d'ornan</item>
+                        <item>RocheBrune</item>
+                     </list>
+                  </p>
+                  <cb n="4"/>
+                  <p>
+                     <lb/>
+                     <lb/>
+                     <lb/>
+                     <lb/>
+                     <lb/>
+                     <lb/>pour Les
+                     <lb/>rouges
+                  </p>
+                  <cb n="5"/>
                   <p rend="curly_brace">
                      <list type="simple">
                         <head rend="label">Pour Les rouges</head>
@@ -298,6 +298,7 @@
                      </list>
                   </p>
                </div>
+            </div>
             <pb n="2"/>
                <div type="section">
                   <head>
