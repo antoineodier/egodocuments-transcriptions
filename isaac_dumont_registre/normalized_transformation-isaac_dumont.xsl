@@ -30,6 +30,10 @@
     <hr class="horizontal_line"/>
   </xsl:template>
 
+  <xsl:template match="tei:milestone[@style='short_horizontal_line']">
+    <hr class="short_horizontal_line"/>
+  </xsl:template>
+
   <xsl:template match="tei:head[@rend='centered']">
     <b>
       <div class="text-center">
