@@ -100,6 +100,12 @@
       </xsl:for-each>
   </xsl:template>
 
+  <xsl:template match="tei:div[@type='columns']">
+    <div class="columns">
+      <xsl:apply-templates/>
+    </div>
+  </xsl:template>
+
 <!-- Abbréviations -->
   <xsl:template match="tei:choice">
     <a href="#">
