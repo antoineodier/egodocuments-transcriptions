@@ -91,6 +91,7 @@
 
 <!-- Colones -->
   <xsl:template match="tei:div[tei:cb]">
+    <div class="columns">
       <xsl:for-each select="tei:cb">
         <xsl:variable name="n" select="@n" />
             <div class="columns-transcription">
@@ -98,14 +99,15 @@
               select="following-sibling::node()[preceding-sibling::tei:cb[1][@n=$n]]"/>
             </div>
       </xsl:for-each>
+    </div>
   </xsl:template>
 
-  <xsl:template match="tei:div[@type='columns']">
+<!--   <xsl:template match="tei:div[@type='columns']">
     <br/>
     <div class="columns">
       <xsl:apply-templates/>
     </div>
-  </xsl:template>
+  </xsl:template> -->
 
 <!-- Abbréviations -->
   <xsl:template match="tei:choice">
