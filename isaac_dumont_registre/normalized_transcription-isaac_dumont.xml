@@ -228,6 +228,76 @@
                      </list>
                   </p>
                </div>
+               <div>
+                  <cb n="1"/>
+                  <p rend="curly_brace">
+                     <list type="simple">
+                        <head>Colonel</head>
+                        <item>Louuigny</item>
+                        <milestone unit="section" style="short_horizontal_line"/>
+                     </list>
+                     <list type="simple">
+                        <head rend="underlined">Capitaines</head>
+                        <item>Bostaquet</item>
+                        <item>La grangerie</item>
+                        <item>Passy</item>
+                        <item>D'olon</item>
+                        <item>Viuens</item>
+                        <item>Varenques</item>
+                        <item>La guiminiere</item>
+                     </list>
+                  </p>
+                  <cb n="2"/>
+                  <p>
+                     <lb/>
+                     <lb/>
+                     <lb/>
+                     <lb/>
+                     <lb/>
+                     <lb/>pour Les
+                     <lb/>rouges
+                  </p>         
+                  <cb n="3"/>
+                  <p rend="curly_brace">
+                     <list type="simple">
+                        <head>Lieutenants</head>
+                        <item>Boismolet</item>
+                        <item>mailleray</item>
+                        <item>CLairuaux</item>
+                        <item>Vilmisson</item>
+                        <item>La Caterie</item>
+                        <item>d'ornan</item>
+                        <item>RocheBrune</item>
+                     </list>
+                  </p>
+                  <cb n="4"/>
+                  <p>
+                     <lb/>
+                     <lb/>
+                     <lb/>
+                     <lb/>
+                     <lb/>
+                     <lb/>pour Les
+                     <lb/>rouges
+                  </p>
+                  <cb n="5"/>
+                  <p rend="curly_brace">
+                     <list type="simple">
+                        <head rend="label">Pour Les rouges</head>
+                        <head>Cornettes</head>
+                        <item>VasseLot</item>
+                        <item>maille, Laisne</item>
+                        <item>maille Le Cadet</item>
+                        <item>D'olon fils</item>
+                        <item>Du chesoy</item>
+                        <item>Montpinson</item>
+                        <item>La rouuiere</item>
+                        <item>La Bastide</item>
+                        <item>Picard</item>
+                        <item rend="label"></item>
+                     </list>
+                  </p>
+               </div>
             </div>
             <pb n="2"/>
             <div type="section">
