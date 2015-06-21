@@ -101,6 +101,7 @@
   </xsl:template>
 
   <xsl:template match="tei:div[@type='columns']">
+    <br/>
     <div class="columns">
       <xsl:apply-templates/>
     </div>
