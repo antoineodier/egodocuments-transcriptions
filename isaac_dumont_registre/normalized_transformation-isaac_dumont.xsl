@@ -98,7 +98,6 @@
               select="following-sibling::node()[preceding-sibling::tei:cb[1][@n=$n]]"/>
             </div>
       </xsl:for-each>
-    </table>
   </xsl:template>
 
 <!-- Abbréviations -->
