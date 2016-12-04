@@ -4,4 +4,4 @@ The Repository contains the xml-tei transcription material used on the EMBAW dig
 
 For more information, please go to: http://www.embaw.eu
 
-![Alt text](app/assets/home_screenshot.png?raw=true)
+![Alt text](assets/home_screenshot.png?raw=true)
