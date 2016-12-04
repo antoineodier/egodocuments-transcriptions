@@ -55,12 +55,11 @@
                         <support>
                            <p>Paper</p>
                         </support>
-                        <extent>xxx leaves
+                        <extent>173 leaves
                            <dimensions scope="all" type="leaf"
                               unit="centimeters">
-                              <height></height>
-                              <width></width>
-                              <depth></depth>
+                              <height>26</height>
+                              <width>21</width>
                            </dimensions>
                         </extent>
                      </supportDesc>
@@ -89,7 +88,7 @@
             <rs type="place" ref="#augsburg">Augsburg</rs>
          </creation>
          <calendarDesc>
-            <calendar xml:id="julian"><p>Julian(?)</p></calendar>
+            <calendar xml:id="julian"><p>Julian</p></calendar>
          </calendarDesc>
          <langUsage>
             <language ident="ger" usage="90">German</language>
@@ -105,10 +104,44 @@
       </profileDesc>
    </teiHeader>
    <text>
+      <front>
+         <pb n="1r"/>
+         <titlePage>
+            <docTitle>
+               <titlePart>            
+                  <lb/>Jnn, Disem büchlein, Sein, allerley Sachen,
+                  <lb/>verzeichnet.
+                  <lb/>So mich Matheo Miller, Jnn A&#x2020;gsb&#x2020;rg
+                  <lb/>betreffen.
+               </titlePart>
+            </docTitle>
+            <writing type="paragraph">
+               <lb/>Vonn meinen, Geb&#x2020;rt ann So lang ein Got da&#x24; Leben, vnnd
+               <lb/>die Genade, verlihen, dises zur Continuieren
+               <lb/>Jst mit vornigem, derum verseinhuet, vmb die
+               <lb/>meinigen, fa Got die Gnade, verlihe, etwan zur
+               <lb/>verlaßen, solches nach mir finden.-.
+            </writing>
+            <writing type="paragraph">
+               <lb/>Ach herr lehre mich bedenken das Jch sterben muß. vnd.
+               <lb/>mein leben Ein zihl hat. .s vndtJch dauer muß.
+            </writing>
+            <writing>
+               <lb/>Leben, so leben wir dem herrn, Sterben, so sterben wir dem herrn.
+               <lb/>derumb, wir lebeben oder Merben so sein wir des
+               <lb/>herrn .s
+            </writing>
+            <writing>
+               <lb/>Christlich leben, macht Selich, seelig sterben vnd ewige freud ererben.
+               <lb/>Ach, Gott, hilff vns, alle drey stukh erwerben!
+            </writing>
+         </titlePage>
+      </front>
       <body>
          <div type="volume">
-            <pb n="1r"/>
-            <p>[To be transcribed]</p>
+               <lb/>
+               <lb/>
+            
             <pb n="1v"/>
             <p>[To be transcribed]</p>
             <pb n="2r"/>

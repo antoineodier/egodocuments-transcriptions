@@ -14,12 +14,29 @@
    <xsl:template match="/">
      <html>
       <head>
-        <!-- Registre - Jean Maillefer -->
+        <br/><b>TEST MATHEUS MILLER</b><br/><br/>
+        <script></script>
+        <style>
+          @font-face {
+            font-family: 'ZedlerFraktur';
+            src: url('zedler-fraktur-2.ttf') format('truetype');
+          }
+          .gothic-font {
+            font-family: 'ZedlerFraktur';
+            font-size: 40px;
+          }
+        </style>
       </head>
       <body>
         <xsl:apply-templates/>
       </body>
      </html>
+  </xsl:template>
+
+  <xsl:template match="tei:front">
+    <div class="gothic-font">
+      <xsl:apply-templates/>
+    </div>
   </xsl:template>
 
   <xsl:template match="tei:lb">
